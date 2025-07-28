@@ -1,11 +1,42 @@
 ---
-title: "driftless_oaks_soils_landforms"
+title: "Driftless Spatial Planning Project, 2025"
+
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+
+
+<div style="text-align: center;">
+  <font size="4"> 
+    **This Spatial Data Assessment explores potential sites for oak ecosystem restoration, with a focus on soils, landforms and existing vegetation type and forest canopy cover.**
+  </font>
+</div>
+
+<br>
+
+## Goals of this web report
+
+The maps and charts here highlight general vegetation and land-use trends in the Driftless region, and explore potential areas for restoration of oak-dominated areas.  Additionally we document brief methods.  
+
+![Driftless region hydrography.](images/hydrography.jpg){style="float:right; margin-left: 25px;" fig-alt="\"Rivers and streams of the Driftless region." fig-align="right" width="450" }
+
+Web report developed and deployed by Randy Swaty.  Methods and maps made with substantial input from:
+
+* Ann Calhoun
+* Garrett Knowlton
+* John Wagner
+* August Froehlich
+
+## Quick note about methods
+
+Each page will have brief notes on methods (except the IMI page as methods are in review).  GIS processing completed in ArcGIS pro history and detailed parameterization of steps recorded in a shared ArcGIS pro project package.  Please contact [Randy Swaty](mailto:rswaty@tnc.org){target="blank"} for link to that file. 
+
+
+## How to use this web report
+
+* All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org){target="blank"}.
+* Review is ongoing.
+* To share this web app, simply share the hyperlink.
+* Toggle between dark and light display of this site in the upper right corner of the page.
+

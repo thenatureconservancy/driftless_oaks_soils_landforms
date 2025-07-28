@@ -1,0 +1,1019 @@
+Value,Count,Landforms_2020_3_31_USA_Clip,LC23_EVT_240_Clip,Landforms,EVT_NAME,EVT_PHYS,EVT_GP_N,in_y_n
+1,7698594,21,7974,Upper flat,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+2,5397027,30,7974,Dry flat,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+3,316363,30,7975,Dry flat,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+4,492128,21,7975,Upper flat,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+5,172997,21,7929,Upper flat,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+6,798574,21,7299,Upper flat,Developed-Roads,Developed-Roads,Developed-Roads,0
+7,623255,21,7977,Upper flat,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+8,247588,21,7296,Upper flat,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+9,551941,30,7299,Dry flat,Developed-Roads,Developed-Roads,Developed-Roads,0
+10,3903143,39,7974,Pluvial flat,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+11,12029,21,7421,Upper flat,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+12,5790119,32,7974,Valley/toe slope,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+13,734333,22,7299,Gentle slope,Developed-Roads,Developed-Roads,Developed-Roads,0
+14,7651574,22,7974,Gentle slope,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+15,26648,30,7973,Dry flat,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+16,276911,31,7974,Wet Flat,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+17,710253,32,7299,Valley/toe slope,Developed-Roads,Developed-Roads,Developed-Roads,0
+18,44773,31,7975,Wet Flat,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+19,209287,39,7975,Pluvial flat,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+20,33112,32,7973,Valley/toe slope,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+21,442021,39,7299,Pluvial flat,Developed-Roads,Developed-Roads,Developed-Roads,0
+22,18919,39,7421,Pluvial flat,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+23,107741,21,7908,Upper flat,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+24,19093,39,7905,Pluvial flat,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+25,648935,39,7977,Pluvial flat,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+26,135101,30,7296,Dry flat,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+27,7419,21,7412,Upper flat,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+28,973348,22,7975,Gentle slope,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+29,684930,32,7975,Valley/toe slope,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+30,557708,30,7977,Dry flat,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+31,23162,30,7905,Dry flat,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+32,39327,21,7973,Upper flat,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+33,68492,30,7908,Dry flat,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+34,84085,30,7297,Dry flat,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+35,43063,22,7973,Gentle slope,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+36,545721,39,9817,Pluvial flat,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+37,111643,39,7296,Pluvial flat,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+38,2938,21,7928,Upper flat,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+39,69948,39,7297,Pluvial flat,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+40,79030,30,7929,Dry flat,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+41,606882,21,9817,Upper flat,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+42,7478,39,7927,Pluvial flat,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+43,48896,39,7929,Pluvial flat,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+44,290248,21,7310,Upper flat,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+45,139630,32,7296,Valley/toe slope,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+46,76971,32,7908,Valley/toe slope,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+47,508937,30,9817,Dry flat,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+48,21636,21,7925,Upper flat,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+49,18476,32,7421,Valley/toe slope,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+50,12729,30,7421,Dry flat,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+51,1931056,32,7977,Valley/toe slope,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+52,8434,39,7925,Pluvial flat,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+53,43423,30,7298,Dry flat,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+54,152375,21,7297,Upper flat,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+55,67848,21,7298,Upper flat,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+56,33931,21,7905,Upper flat,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+57,2027736,22,7977,Gentle slope,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+58,194950,22,7929,Gentle slope,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+59,63294,39,7908,Pluvial flat,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+60,123043,32,7929,Valley/toe slope,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+61,1029439,22,9817,Gentle slope,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+62,60001,22,7978,Gentle slope,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+63,21219,39,7973,Pluvial flat,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+64,330484,31,7977,Wet Flat,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+65,1628323,50,7292,Water,Open Water,Open Water,Open Water,0
+66,3637,31,7412,Wet Flat,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+67,38693,39,7298,Pluvial flat,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+68,96584,31,7292,Wet Flat,Open Water,Open Water,Open Water,0
+69,31946,50,9817,Water,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+70,173714,31,9180,Wet Flat,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+71,15160,50,7310,Water,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+72,1050882,22,7310,Gentle slope,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+73,18001,39,9180,Pluvial flat,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+74,5172,50,9315,Water,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+75,8496,32,7292,Valley/toe slope,Open Water,Open Water,Open Water,0
+76,139241,22,7311,Gentle slope,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+77,1107,22,7292,Gentle slope,Open Water,Open Water,Open Water,0
+78,10642,50,7977,Water,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+79,113093,50,9180,Water,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+80,27629,39,7292,Pluvial flat,Open Water,Open Water,Open Water,0
+81,177152,31,7311,Wet Flat,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+82,42,39,9056,Pluvial flat,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+83,127957,39,9179,Pluvial flat,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+84,106789,39,7311,Pluvial flat,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+85,156663,50,9179,Water,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+86,263840,31,7310,Wet Flat,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+87,108812,30,7311,Dry flat,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+88,240502,31,9817,Wet Flat,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+89,4639,21,9177,Upper flat,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+90,2622,31,7978,Wet Flat,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+91,5999,50,9318,Water,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+92,130216,21,7311,Upper flat,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+93,6531,50,7311,Water,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+94,2046,31,7973,Wet Flat,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+95,9675,50,9683,Water,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+96,64071,21,7314,Upper flat,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+97,313722,31,9177,Wet Flat,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+98,151,50,9056,Water,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+99,28658,21,7302,Upper flat,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+100,273027,30,7310,Dry flat,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+101,78442,30,7314,Dry flat,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+102,1109438,31,9179,Wet Flat,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+103,13699,22,7421,Gentle slope,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+104,151349,22,7314,Gentle slope,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+105,356823,24,7311,Sideslope SW warm,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+106,19406,24,7302,Sideslope SW warm,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+107,2389,21,7909,Upper flat,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+108,973108,32,9817,Valley/toe slope,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+109,38282,22,7302,Gentle slope,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+110,4031533,24,7310,Sideslope SW warm,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+111,1331940,32,7310,Valley/toe slope,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+112,6057,39,7412,Pluvial flat,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+113,186399,32,7311,Valley/toe slope,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+114,23258,30,7302,Dry flat,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+115,26809,31,9679,Wet Flat,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+116,35817,32,7302,Valley/toe slope,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+117,10192,50,7974,Water,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+118,100721,22,7908,Gentle slope,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+119,45200,31,7302,Wet Flat,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+120,46987,22,7905,Gentle slope,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+121,203594,22,7296,Gentle slope,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+122,4442,39,7481,Pluvial flat,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+123,97685,31,7314,Wet Flat,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+124,2351,30,7481,Dry flat,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+125,403,31,9056,Wet Flat,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+126,420006,31,9178,Wet Flat,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+127,1884950,24,7977,Sideslope SW warm,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+128,5225,30,9180,Dry flat,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+129,8829,39,7302,Pluvial flat,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+130,183889,39,7310,Pluvial flat,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+131,5433,30,9177,Dry flat,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+132,76787,39,7314,Pluvial flat,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+133,43971,31,7481,Wet Flat,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+134,9317,22,7395,Gentle slope,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+135,111252,30,9315,Dry flat,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+136,12837,21,7927,Upper flat,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+137,1568,39,9112,Pluvial flat,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+138,1052,39,7909,Pluvial flat,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+139,26917,30,7238,Dry flat,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+140,123027,39,9315,Pluvial flat,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+141,285403,32,7314,Valley/toe slope,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+142,1824,39,7926,Pluvial flat,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+143,48459,39,7362,Pluvial flat,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+144,70466,39,7239,Pluvial flat,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+145,3151,31,7905,Wet Flat,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+146,1233,30,7909,Dry flat,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+147,972,39,7928,Pluvial flat,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+148,55070,32,7239,Valley/toe slope,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+149,24671,32,7925,Valley/toe slope,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+150,7071,31,7296,Wet Flat,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+151,52547,30,7362,Dry flat,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+152,154693,31,9318,Wet Flat,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+153,210227,22,9315,Gentle slope,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+154,104338,21,9315,Upper flat,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+155,31484,22,7925,Gentle slope,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+156,2764,21,9180,Upper flat,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+157,55551,39,9178,Pluvial flat,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+158,4401562,23,7310,Sideslope NE cool,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+159,2963,22,7906,Gentle slope,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+160,3463,31,7925,Wet Flat,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+161,12116,50,9177,Water,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+162,88400,30,7239,Dry flat,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+163,18164,32,7238,Valley/toe slope,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+164,236392,23,7299,Sideslope NE cool,Developed-Roads,Developed-Roads,Developed-Roads,0
+165,55171,31,7299,Wet Flat,Developed-Roads,Developed-Roads,Developed-Roads,0
+166,3076,32,7906,Valley/toe slope,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+167,46444,32,7905,Valley/toe slope,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+168,5384,21,7906,Upper flat,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+169,3675,30,7906,Dry flat,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+170,3034,21,9683,Upper flat,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+171,2414,50,9183,Water,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+172,457981,23,9817,Sideslope NE cool,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+173,231710,23,7311,Sideslope NE cool,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+174,2393,21,9112,Upper flat,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+175,64566,21,7362,Upper flat,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+176,2394,21,7926,Upper flat,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+177,26141,39,9683,Pluvial flat,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+178,2699,22,7412,Gentle slope,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+179,99030,22,7297,Gentle slope,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+180,10589,21,7907,Upper flat,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+181,6561,30,7907,Dry flat,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+182,434,50,7302,Water,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+183,7976,50,9178,Water,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+184,10504,39,9317,Pluvial flat,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+185,2808,31,7907,Wet Flat,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+186,7304,30,7927,Dry flat,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+187,2644,31,7908,Wet Flat,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+188,6334,31,7929,Wet Flat,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+189,66271,32,7297,Valley/toe slope,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+190,1156,30,9120,Dry flat,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+191,72356,39,9318,Pluvial flat,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+192,10876,30,9314,Dry flat,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+193,292936,32,9315,Valley/toe slope,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+194,305,32,9177,Valley/toe slope,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+195,9981,50,7314,Water,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+196,1316,50,7975,Water,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+197,116753,31,9120,Wet Flat,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+198,17617,50,9120,Water,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+199,8904,30,9317,Dry flat,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+200,614,50,7481,Water,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+201,11746,22,9317,Gentle slope,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+202,18941,30,9178,Dry flat,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+203,19876,39,9177,Pluvial flat,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+204,1933,21,7970,Upper flat,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+205,14872,31,7421,Wet Flat,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+206,10170,21,9318,Upper flat,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+207,1704,32,7412,Valley/toe slope,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+208,1869,21,7481,Upper flat,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+209,15260,32,9317,Valley/toe slope,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+210,29255,22,7362,Gentle slope,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+211,8954,39,7907,Pluvial flat,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+212,46474,22,7239,Gentle slope,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+213,161420,31,9683,Wet Flat,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+214,50254,22,9312,Gentle slope,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+215,26057,39,7978,Pluvial flat,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+216,33602,32,7362,Valley/toe slope,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+217,39571,30,9312,Dry flat,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+218,49869,32,9312,Valley/toe slope,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+219,864001,23,7314,Sideslope NE cool,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+220,1628761,23,7977,Sideslope NE cool,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+221,49776,21,9312,Upper flat,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+222,10004,21,9317,Upper flat,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+223,12577,31,7238,Wet Flat,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+224,1134,50,7412,Water,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+225,10758,30,7925,Dry flat,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+226,98263,21,7239,Upper flat,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+227,1031,32,7926,Valley/toe slope,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+228,1577,32,7928,Valley/toe slope,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+229,1364,30,7928,Dry flat,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+230,1513,22,7926,Gentle slope,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+231,142988,31,9314,Wet Flat,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+232,61700,31,9183,Wet Flat,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+233,1890,22,9112,Gentle slope,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+234,25661,22,7298,Gentle slope,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+235,1217589,24,7974,Sideslope SW warm,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+236,19149,32,7298,Valley/toe slope,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+237,17,30,9056,Dry flat,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+238,1629,32,9112,Valley/toe slope,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+239,596,50,7238,Water,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+240,87699,31,7362,Wet Flat,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+241,6620,30,7292,Dry flat,Open Water,Open Water,Open Water,0
+242,4497,30,7412,Dry flat,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+243,3237,21,7292,Upper flat,Open Water,Open Water,Open Water,0
+244,4807,50,7421,Water,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+245,8927,32,7243,Valley/toe slope,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+246,18372,23,7362,Sideslope NE cool,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+247,5,21,9056,Upper flat,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+248,28916,39,7407,Pluvial flat,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+249,29753,39,9312,Pluvial flat,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+250,3173,50,7362,Water,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+251,27707,39,7395,Pluvial flat,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+252,1447716,23,7974,Sideslope NE cool,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+253,23476,39,7238,Pluvial flat,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+254,116336,31,9315,Wet Flat,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+255,570321,24,9817,Sideslope SW warm,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+256,14275,31,9317,Wet Flat,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+257,3276,39,9183,Pluvial flat,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+258,173,50,9112,Water,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+259,30805,30,9179,Dry flat,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+260,1409,30,7926,Dry flat,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+261,12876,23,7302,Sideslope NE cool,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+262,320450,23,9315,Sideslope NE cool,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+263,43523,21,7978,Upper flat,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+264,34576,31,7239,Wet Flat,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+265,3761,31,7927,Wet Flat,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+266,2198,31,7297,Wet Flat,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+267,1885,32,9180,Valley/toe slope,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+268,1644,30,9112,Dry flat,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+269,16419,30,9318,Dry flat,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+270,3648,50,7297,Water,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+271,2946,50,7929,Water,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+272,11287,32,7927,Valley/toe slope,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+273,7849,50,7299,Water,Developed-Roads,Developed-Roads,Developed-Roads,0
+274,4524,39,9120,Pluvial flat,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+275,29543,30,7978,Dry flat,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+276,7343,50,9679,Water,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+277,1910,50,9317,Water,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+278,920,50,7908,Water,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+279,10591,32,7907,Valley/toe slope,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+280,2116,50,7298,Water,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+281,3858,50,7296,Water,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+282,1776,22,7909,Gentle slope,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+283,1948,50,7925,Water,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+284,432,50,7926,Water,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+285,2015,39,9679,Pluvial flat,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+286,3927,39,7906,Pluvial flat,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+287,984,30,9183,Dry flat,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+288,15479,21,9179,Upper flat,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+289,2408,22,7928,Gentle slope,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+290,1216,50,7927,Water,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+291,15397,32,9179,Valley/toe slope,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+292,596,31,7298,Wet Flat,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+293,634,31,7906,Wet Flat,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+294,279,31,7928,Wet Flat,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+295,497714,24,7314,Sideslope SW warm,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+296,491,50,7907,Water,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+297,690,50,7905,Water,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+298,216,50,7928,Water,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+299,47363,39,9314,Pluvial flat,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+300,1234,32,7909,Valley/toe slope,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+301,41060,24,7905,Sideslope SW warm,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+302,11583,22,7907,Gentle slope,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+303,1434,23,7906,Sideslope NE cool,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+304,16926,23,7908,Sideslope NE cool,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+305,621,31,7926,Wet Flat,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+306,981,24,7906,Sideslope SW warm,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+307,30766,24,7908,Sideslope SW warm,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+308,329005,24,7299,Sideslope SW warm,Developed-Roads,Developed-Roads,Developed-Roads,0
+309,43419,23,7296,Sideslope NE cool,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+310,54339,23,7905,Sideslope NE cool,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+311,140,31,7909,Wet Flat,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+312,63,50,7906,Water,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+313,4239,24,7292,Sideslope SW warm,Open Water,Open Water,Open Water,0
+314,12524,30,7242,Dry flat,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+315,4087,31,7243,Wet Flat,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+316,14503,30,7243,Dry flat,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+317,45958,24,7296,Sideslope SW warm,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+318,27477,23,7925,Sideslope NE cool,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+319,48134,24,7929,Sideslope SW warm,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+320,448,23,7926,Sideslope NE cool,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+321,14351,23,7297,Sideslope NE cool,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+322,2396,32,9314,Valley/toe slope,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+323,2499,32,9318,Valley/toe slope,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+324,13240,32,7395,Valley/toe slope,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+325,16049,22,7238,Gentle slope,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+326,20227,24,7925,Sideslope SW warm,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+327,10464,23,7238,Sideslope NE cool,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+328,10873,24,7362,Sideslope SW warm,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+329,18005,24,9317,Sideslope SW warm,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+330,949,22,9179,Gentle slope,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+331,6384,21,9314,Upper flat,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+332,15831,21,9178,Upper flat,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+333,145,32,9183,Valley/toe slope,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+334,632,21,9183,Upper flat,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+335,32958,23,7239,Sideslope NE cool,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+336,2911,24,9179,Sideslope SW warm,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+337,22496,24,7239,Sideslope SW warm,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+338,31604,24,9312,Sideslope SW warm,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+339,22003,31,9677,Wet Flat,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+340,305753,23,7975,Sideslope NE cool,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+341,30112,23,7929,Sideslope NE cool,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+342,1666,32,9683,Valley/toe slope,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+343,21512,31,7488,Wet Flat,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+344,42,50,7909,Water,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+345,8817,39,7488,Pluvial flat,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+346,11610,50,7488,Water,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+347,7172,23,7907,Sideslope NE cool,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+348,13416,22,7927,Gentle slope,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+349,4849,50,9314,Water,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+350,578,23,7909,Sideslope NE cool,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+351,7256,23,7927,Sideslope NE cool,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+352,10601,23,7421,Sideslope NE cool,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+353,9493,23,7973,Sideslope NE cool,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+354,32813,21,7238,Upper flat,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+355,2107,31,7290,Wet Flat,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+356,1868,32,9178,Valley/toe slope,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+357,363998,24,9315,Sideslope SW warm,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+358,20705,31,7395,Wet Flat,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+359,3920,31,9682,Wet Flat,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+360,2007,30,7488,Dry flat,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+361,309969,24,7975,Sideslope SW warm,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+362,887,21,7488,Upper flat,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+363,902,50,7239,Water,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+364,2647,30,7295,Dry flat,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+365,1587,39,7295,Pluvial flat,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+366,4671,21,7295,Upper flat,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+367,294,31,7295,Wet Flat,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+368,5762,22,7295,Gentle slope,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+369,3319,32,7295,Valley/toe slope,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+370,41492,23,9312,Sideslope NE cool,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+371,6098,23,7395,Sideslope NE cool,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+372,289,22,9178,Gentle slope,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+373,3524,23,7295,Sideslope NE cool,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+374,42340,32,7978,Valley/toe slope,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+375,15040,24,7421,Sideslope SW warm,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+376,28272,21,7395,Upper flat,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+377,6237,30,9683,Dry flat,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+378,53,22,9177,Gentle slope,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+379,2840,39,7290,Pluvial flat,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+380,3338,24,7295,Sideslope SW warm,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+381,1270,23,7242,Sideslope NE cool,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+382,13237,39,7242,Pluvial flat,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+383,12885,31,9312,Wet Flat,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+384,1199,23,7292,Sideslope NE cool,Open Water,Open Water,Open Water,0
+385,2555,23,7298,Sideslope NE cool,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+386,174,22,9180,Gentle slope,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+387,5496,24,7927,Sideslope SW warm,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+388,14962,21,7242,Upper flat,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+389,29084,21,7407,Upper flat,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+390,6987,32,7242,Valley/toe slope,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+391,22725,30,7395,Dry flat,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+392,15125,24,7297,Sideslope SW warm,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+393,15295,39,7243,Pluvial flat,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+394,374,39,7976,Pluvial flat,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+395,13522,23,7978,Sideslope NE cool,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+396,1059,32,7488,Valley/toe slope,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+397,6179,24,7395,Sideslope SW warm,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+398,93882,11,7310,Flat summit/ridge,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+399,443400,13,7310,Slope crest,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+400,17501,23,9317,Sideslope NE cool,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+401,298,24,7926,Sideslope SW warm,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+402,49,22,7481,Gentle slope,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+403,489,50,7395,Water,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+404,211,24,9314,Sideslope SW warm,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+405,128,24,9318,Sideslope SW warm,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+406,10052,24,7238,Sideslope SW warm,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+407,788,24,9112,Sideslope SW warm,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+408,105,22,7488,Gentle slope,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+409,697,23,9112,Sideslope NE cool,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+410,778,50,9312,Water,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+411,64,22,9683,Gentle slope,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+412,212133,44,7310,Cove: SW warm,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+413,124,32,7394,Valley/toe slope,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,0
+414,7197,24,7907,Sideslope SW warm,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+415,157,22,7394,Gentle slope,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+416,91,21,7394,Upper flat,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+417,49,39,7394,Pluvial flat,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,0
+418,336,21,9679,Upper flat,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+419,85,30,7394,Dry flat,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+420,324,23,9179,Sideslope NE cool,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+421,1825,23,7243,Sideslope NE cool,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+422,6498,22,7243,Gentle slope,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+423,28,31,7394,Wet Flat,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,0
+424,40962,13,7314,Slope crest,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+425,3,50,7394,Water,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,0
+426,109021,41,7310,Flat at bottom of steep slope,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+427,7205,11,7314,Flat summit/ridge,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+428,14302,11,7977,Flat summit/ridge,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+429,10315,24,7973,Sideslope SW warm,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+430,763,23,7412,Sideslope NE cool,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+431,31736,4,7314,Steep slope: SW warm,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+432,520,41,7292,Flat at bottom of steep slope,Open Water,Open Water,Open Water,0
+433,178287,4,7310,Steep slope: SW warm,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,1
+434,207384,43,7310,Cove: NE cool,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+435,406,24,7488,Sideslope SW warm,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+436,59,44,7362,Cove: SW warm,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+437,84940,3,7314,Steep slope: NE cool,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+438,167,3,7239,Steep slope: NE cool,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+439,93,23,7488,Sideslope NE cool,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+440,46048,44,7314,Cove: SW warm,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+441,126,4,7239,Steep slope: SW warm,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+442,95,41,7362,Flat at bottom of steep slope,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+443,4138,43,9315,Cove: NE cool,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+444,143,43,7362,Cove: NE cool,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+445,274140,3,7310,Steep slope: NE cool,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+446,88717,43,7314,Cove: NE cool,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+447,1435,13,7239,Slope crest,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+448,214,24,9683,Sideslope SW warm,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+449,717,13,7296,Slope crest,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+450,1274,13,7905,Slope crest,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+451,769,13,7925,Slope crest,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+452,475,43,7292,Cove: NE cool,Open Water,Open Water,Open Water,0
+453,221,11,7925,Flat summit/ridge,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+454,432,11,7905,Flat summit/ridge,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+455,840,24,7412,Sideslope SW warm,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+456,362,11,7296,Flat summit/ridge,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+457,6877,32,7407,Valley/toe slope,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+458,27623,4,7311,Steep slope: SW warm,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+459,7416,3,7311,Steep slope: NE cool,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+460,19258,44,7311,Cove: SW warm,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+461,6669,4,7977,Steep slope: SW warm,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+462,44172,41,7314,Flat at bottom of steep slope,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+463,6259,43,7311,Cove: NE cool,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+464,36861,13,7311,Slope crest,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+465,907,24,7909,Sideslope SW warm,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+466,8503,11,7311,Flat summit/ridge,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,1
+467,8901,44,9315,Cove: SW warm,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+468,17529,41,7977,Flat at bottom of steep slope,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+469,2552,24,7298,Sideslope SW warm,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+470,25347,13,7977,Slope crest,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+471,2134,13,7299,Slope crest,Developed-Roads,Developed-Roads,Developed-Roads,0
+472,258,3,7925,Steep slope: NE cool,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+473,231,13,7908,Slope crest,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+474,127,13,7927,Slope crest,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+475,146,3,7296,Steep slope: NE cool,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+476,158,43,7238,Cove: NE cool,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+477,339,11,7239,Flat summit/ridge,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+478,986,3,7905,Steep slope: NE cool,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+479,340,4,7925,Steep slope: SW warm,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+480,171,50,7973,Water,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+481,176,44,7297,Cove: SW warm,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+482,9551,4,7299,Steep slope: SW warm,Developed-Roads,Developed-Roads,Developed-Roads,0
+483,8901,41,7311,Flat at bottom of steep slope,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+484,16758,44,7299,Cove: SW warm,Developed-Roads,Developed-Roads,Developed-Roads,0
+485,240,4,7296,Steep slope: SW warm,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+486,1324,11,7299,Flat summit/ridge,Developed-Roads,Developed-Roads,Developed-Roads,0
+487,9248,41,7299,Flat at bottom of steep slope,Developed-Roads,Developed-Roads,Developed-Roads,0
+488,65,4,7297,Steep slope: SW warm,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+489,10209,13,9817,Slope crest,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+490,2164,32,7970,Valley/toe slope,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+491,181,13,7297,Slope crest,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+492,290,4,7909,Steep slope: SW warm,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+493,1307,4,7905,Steep slope: SW warm,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+494,68,13,7909,Slope crest,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+495,151,11,7908,Flat summit/ridge,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+496,607,44,7292,Cove: SW warm,Open Water,Open Water,Open Water,0
+497,417,44,7421,Cove: SW warm,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+498,4063,4,9315,Steep slope: SW warm,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+499,11246,13,9315,Slope crest,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+500,31,44,7488,Cove: SW warm,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+501,7,4,9683,Steep slope: SW warm,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+502,6186,44,9817,Cove: SW warm,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+503,19,4,7412,Steep slope: SW warm,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+504,390,50,7295,Water,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+505,22,4,7488,Steep slope: SW warm,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+506,64,4,7421,Steep slope: SW warm,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+507,3875,11,9315,Flat summit/ridge,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,1
+508,853,23,7928,Sideslope NE cool,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+509,1189,3,9315,Steep slope: NE cool,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+510,27,44,7412,Cove: SW warm,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+511,31,23,9683,Sideslope NE cool,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+512,15,3,7412,Steep slope: NE cool,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+513,14,43,7412,Cove: NE cool,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+514,443,22,7976,Gentle slope,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+515,8,3,7907,Steep slope: NE cool,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+516,2782,13,7975,Slope crest,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+517,11583,24,7978,Sideslope SW warm,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+518,2404,44,7905,Cove: SW warm,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+519,353,44,7925,Cove: SW warm,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+520,1864,41,7905,Flat at bottom of steep slope,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+521,3488,43,7905,Cove: NE cool,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+522,684,44,7296,Cove: SW warm,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+523,50,11,7927,Flat summit/ridge,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+524,607,3,9817,Steep slope: NE cool,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+525,118,13,7907,Slope crest,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+526,7798,41,9315,Flat at bottom of steep slope,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+527,8277,43,7299,Cove: NE cool,Developed-Roads,Developed-Roads,Developed-Roads,0
+528,4010,5,7314,Cliff: NE cool,North-Central Interior Maple-Basswood Forest,Hardwood,Beech-Maple-Basswood Forest,0
+529,25,44,9683,Cove: SW warm,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+530,80,13,7421,Slope crest,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+531,4308,41,7974,Flat at bottom of steep slope,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+532,1411,30,7970,Dry flat,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+533,470,24,7928,Sideslope SW warm,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+534,616,41,9179,Flat at bottom of steep slope,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+535,395,44,9179,Cove: SW warm,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+536,35,4,7927,Steep slope: SW warm,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+537,19699,44,7977,Cove: SW warm,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+538,409,44,7908,Cove: SW warm,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+539,132,4,7975,Steep slope: SW warm,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+540,154,11,7929,Flat summit/ridge,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+541,139,41,7297,Flat at bottom of steep slope,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+542,12327,4,9317,Steep slope: SW warm,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+543,109,11,7297,Flat summit/ridge,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+544,53,43,7908,Cove: NE cool,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+545,151,43,7907,Cove: NE cool,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+546,105,41,7927,Flat at bottom of steep slope,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+547,181,41,7908,Flat at bottom of steep slope,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+548,182,41,7907,Flat at bottom of steep slope,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+549,250,44,7907,Cove: SW warm,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+550,705,30,7976,Dry flat,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+551,39,11,7421,Flat summit/ridge,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+552,11401,13,7974,Slope crest,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+553,9709,11,7974,Flat summit/ridge,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+554,121,4,7907,Steep slope: SW warm,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+555,47,3,7421,Steep slope: NE cool,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+556,96,5,9315,Cliff: NE cool,Northern & Central Native Ruderal Forest,Conifer-Hardwood,Ruderal Forest,0
+557,5398,11,9817,Flat summit/ridge,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+558,5407,5,7310,Cliff: NE cool,North-Central Interior Dry-Mesic Oak Forest and Woodland,Hardwood,White Oak-Red Oak-Hickory Forest and Woodland,0
+559,219,3,7974,Steep slope: NE cool,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+560,193,22,9314,Gentle slope,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+561,12,23,9314,Sideslope NE cool,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+562,4,5,7292,Cliff: NE cool,Open Water,Open Water,Open Water,0
+563,185,4,7292,Steep slope: SW warm,Open Water,Open Water,Open Water,0
+564,1,3,9683,Steep slope: NE cool,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+565,414,5,7311,Cliff: NE cool,North-Central Interior Dry Oak Forest and Woodland,Hardwood,Black Oak Woodland and Savanna,0
+566,46,43,9179,Cove: NE cool,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+567,183,43,7421,Cove: NE cool,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+568,28,43,7488,Cove: NE cool,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+569,285,32,7976,Valley/toe slope,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+570,208,22,9318,Gentle slope,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+571,1821,22,7970,Gentle slope,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+572,11,24,9177,Sideslope SW warm,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+573,986,21,7976,Upper flat,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+574,2429,11,7975,Flat summit/ridge,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+575,998,39,7970,Pluvial flat,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+576,50,11,7907,Flat summit/ridge,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+577,4566,41,9817,Flat at bottom of steep slope,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+578,39,24,9679,Sideslope SW warm,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+579,210,13,7929,Slope crest,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+580,15,13,7928,Slope crest,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+581,1983,4,9817,Steep slope: SW warm,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,1
+582,1,5,7421,Cliff: NE cool,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+583,27,5,7296,Cliff: NE cool,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+584,25,44,7298,Cove: SW warm,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+585,77,4,7908,Steep slope: SW warm,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+586,6142,43,7977,Cove: NE cool,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+587,1782,43,9817,Cove: NE cool,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+588,4853,13,9317,Slope crest,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+589,138,11,7295,Flat summit/ridge,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+590,119,44,7927,Cove: SW warm,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+591,7,5,7929,Cliff: NE cool,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+592,17,13,7412,Slope crest,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+593,262,24,9180,Sideslope SW warm,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+594,107635,24,7517,Sideslope SW warm,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+595,83027,23,7517,Sideslope NE cool,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+596,56727,13,7517,Slope crest,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+597,86,11,7973,Flat summit/ridge,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+598,80,13,7973,Slope crest,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+599,87216,3,7517,Steep slope: NE cool,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+600,153851,4,7517,Steep slope: SW warm,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+601,1336,3,7977,Steep slope: NE cool,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+602,2,43,9314,Cove: NE cool,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+603,485,43,9317,Cove: NE cool,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+604,637,41,9317,Flat at bottom of steep slope,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+605,7822,5,7517,Cliff: NE cool,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+606,34,13,7298,Slope crest,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+607,549,44,9317,Cove: SW warm,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+608,19940,43,7517,Cove: NE cool,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+609,97,22,7517,Gentle slope,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+610,888,11,9312,Flat summit/ridge,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+611,1393,13,9312,Slope crest,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+612,8,11,7928,Flat summit/ridge,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+613,1376,41,7975,Flat at bottom of steep slope,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+614,747,3,9317,Steep slope: NE cool,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+615,1407,3,7299,Steep slope: NE cool,Developed-Roads,Developed-Roads,Developed-Roads,0
+616,682,11,7517,Flat summit/ridge,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+617,56,44,9314,Cove: SW warm,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+618,483,43,7925,Cove: NE cool,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+619,539,30,9679,Dry flat,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+620,69,24,7394,Sideslope SW warm,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+621,1998,44,7517,Cove: SW warm,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+622,941,13,7286,Slope crest,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+623,234,32,7290,Valley/toe slope,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+624,192,22,7290,Gentle slope,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,1
+625,1661,30,7290,Dry flat,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,1
+626,2197,21,7290,Upper flat,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,1
+627,189,32,9679,Valley/toe slope,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+628,271,5,7977,Cliff: NE cool,Eastern Cool Temperate Pasture and Hayland,Agricultural,Agricultural-Pasture and Hayland,0
+629,220,41,9312,Flat at bottom of steep slope,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+630,395,44,7929,Cove: SW warm,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+631,288,41,7929,Flat at bottom of steep slope,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+632,74,43,7929,Cove: NE cool,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+633,1129,5,9317,Cliff: NE cool,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,0
+634,4071,44,7974,Cove: SW warm,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+635,7,5,7974,Cliff: NE cool,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+636,543,23,7286,Sideslope NE cool,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+637,1527,24,7286,Sideslope SW warm,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+638,3163,4,7286,Steep slope: SW warm,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+639,434,3,7286,Steep slope: NE cool,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+640,332,41,7925,Flat at bottom of steep slope,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+641,10,41,7909,Flat at bottom of steep slope,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+642,511,41,7296,Flat at bottom of steep slope,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+643,31,5,7925,Cliff: NE cool,Eastern Cool Temperate Developed Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+644,504,43,7296,Cove: NE cool,Developed-Low Intensity,Developed-Low Intensity,Developed-Low Intensity,0
+645,706,39,9682,Pluvial flat,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+646,27,22,9679,Gentle slope,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+647,179,43,7286,Cove: NE cool,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+648,112,43,7297,Cove: NE cool,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+649,179,50,7286,Water,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+650,460,50,7517,Water,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+651,275,11,9317,Flat summit/ridge,Northern & Central Ruderal Shrubland,Exotic Tree-Shrub,Introduced Upland Vegetation-Shrub,1
+652,54,5,7905,Cliff: NE cool,Eastern Cool Temperate Urban Deciduous Forest,Developed,Developed-Upland Deciduous Forest,0
+653,29,3,7908,Steep slope: NE cool,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+654,170,5,7299,Cliff: NE cool,Developed-Roads,Developed-Roads,Developed-Roads,0
+655,10,5,7909,Cliff: NE cool,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+656,70,5,9817,Cliff: NE cool,Northern & Central Ruderal Meadow,Exotic Herbaceous,Introduced Perennial Grassland and Forbland,0
+657,25,5,7297,Cliff: NE cool,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+658,188,5,7286,Cliff: NE cool,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+659,267,32,7517,Valley/toe slope,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+660,274,43,9312,Cove: NE cool,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+661,207,4,7974,Steep slope: SW warm,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+662,139,44,9178,Cove: SW warm,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+663,8,11,7909,Flat summit/ridge,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+664,141,13,7978,Slope crest,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+665,1947,31,7517,Wet Flat,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+666,9,11,7298,Flat summit/ridge,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+667,8,23,7290,Sideslope NE cool,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+668,145,41,9314,Flat at bottom of steep slope,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+669,304,13,7295,Slope crest,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+670,356,41,9178,Flat at bottom of steep slope,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+671,40,41,7295,Flat at bottom of steep slope,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+672,1766,39,9117,Pluvial flat,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+673,4,32,9056,Valley/toe slope,Boreal-Laurentian Conifer Acidic Swamp and Treed Poor Fen,Riparian,Peatland Forests,0
+674,174,32,7481,Valley/toe slope,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+675,9,22,9183,Gentle slope,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+676,7,50,9620,Water,Laurentian-Acadian Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+677,19,41,7302,Flat at bottom of steep slope,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+678,1503,31,9182,Wet Flat,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+679,13830,31,9117,Wet Flat,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+680,12,39,9617,Pluvial flat,Laurentian-Acadian Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+681,267,11,7302,Flat summit/ridge,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+682,601,13,7302,Slope crest,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+683,30,44,7302,Cove: SW warm,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+684,85,32,9117,Valley/toe slope,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+685,445,30,9117,Dry flat,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+686,68,31,9617,Wet Flat,Laurentian-Acadian Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+687,428,50,9117,Water,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+688,4113,31,7242,Wet Flat,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+689,462,31,9112,Wet Flat,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+690,139,31,9620,Wet Flat,Laurentian-Acadian Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+691,10,30,9620,Dry flat,Laurentian-Acadian Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+692,1343,50,9677,Water,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+693,299,21,9117,Upper flat,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+694,29704,31,7407,Wet Flat,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+695,21341,30,7407,Dry flat,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+696,5,43,7302,Cove: NE cool,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+697,57,22,7366,Gentle slope,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+698,73,32,7366,Valley/toe slope,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+699,177,32,7241,Valley/toe slope,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+700,124,23,7240,Sideslope NE cool,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+701,99,30,7366,Dry flat,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+702,18154,21,7243,Upper flat,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+703,22,24,7241,Sideslope SW warm,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+704,1,22,9089,Gentle slope,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+705,982,13,7238,Slope crest,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+706,186,32,7240,Valley/toe slope,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+707,26,24,7366,Sideslope SW warm,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+708,109,22,7241,Gentle slope,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+709,748,23,7407,Sideslope NE cool,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+710,230,11,7238,Flat summit/ridge,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+711,106,23,7241,Sideslope NE cool,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+712,82,31,7240,Wet Flat,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+713,66,4,7302,Steep slope: SW warm,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+714,1,30,9089,Dry flat,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+715,144,22,7240,Gentle slope,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+716,234,31,7366,Wet Flat,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+717,148,21,7366,Upper flat,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+718,174,21,7241,Upper flat,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+719,1,23,9295,Sideslope NE cool,Laurentian-Acadian Sub-boreal Dry-Mesic Pine-Black Spruce-Hardwood Forest,Conifer-Hardwood,Jack Pine Forest,0
+720,1310,43,7974,Cove: NE cool,Eastern Cool Temperate Row Crop,Agricultural,Agricultural-Row Crop,0
+721,62,24,7240,Sideslope SW warm,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+722,191,30,7240,Dry flat,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+723,523,39,9677,Pluvial flat,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+724,31,50,9118,Water,Laurentian-Acadian Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+725,3,13,7240,Slope crest,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+726,662,23,7970,Sideslope NE cool,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+727,1233,21,9120,Upper flat,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+728,76,13,7395,Slope crest,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+729,1,23,9089,Sideslope NE cool,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+730,220,21,7240,Upper flat,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+731,1,32,9089,Valley/toe slope,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+732,14,23,7366,Sideslope NE cool,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+733,2126,24,7243,Sideslope SW warm,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+734,28,32,9120,Valley/toe slope,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+735,1680,24,7242,Sideslope SW warm,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+736,5864,22,7407,Gentle slope,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+737,4784,22,7242,Gentle slope,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+738,183,21,9677,Upper flat,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+739,195,30,7241,Dry flat,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+740,88,39,7366,Pluvial flat,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+741,900,24,7407,Sideslope SW warm,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+742,166,30,9677,Dry flat,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+743,160,39,7241,Pluvial flat,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+744,61,31,7241,Wet Flat,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+745,337,50,7407,Water,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+746,7,50,9617,Water,Laurentian-Acadian Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+747,8,50,7241,Water,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+748,111,39,7240,Pluvial flat,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+749,9,50,7366,Water,Laurentian-Acadian Pine-Hemlock Forest,Conifer,Pine-Hemlock-Hardwood Forest,0
+750,411,43,7975,Cove: NE cool,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+751,1579,44,7975,Cove: SW warm,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+752,2,30,9617,Dry flat,Laurentian-Acadian Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+753,14,11,7395,Flat summit/ridge,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+754,8,22,9117,Gentle slope,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+755,152,24,9178,Sideslope SW warm,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+756,247,50,9682,Water,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+757,59,31,7286,Wet Flat,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+758,249,44,7239,Cove: SW warm,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,1
+759,208,11,7362,Flat summit/ridge,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+760,152,4,7238,Steep slope: SW warm,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+761,15,24,9117,Sideslope SW warm,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+762,300,41,7239,Flat at bottom of steep slope,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+763,126,3,9312,Steep slope: NE cool,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+764,48,3,7975,Steep slope: NE cool,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+765,37,41,9683,Flat at bottom of steep slope,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+766,517,31,7970,Wet Flat,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+767,2,24,9120,Sideslope SW warm,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+768,424,43,7239,Cove: NE cool,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+769,311,50,7978,Water,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+770,2,4,7906,Steep slope: SW warm,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+771,7,41,9183,Flat at bottom of steep slope,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+772,112,4,7362,Steep slope: SW warm,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+773,33,4,9312,Steep slope: SW warm,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+774,13,4,7973,Steep slope: SW warm,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+775,17,44,7906,Cove: SW warm,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+776,352,41,7395,Flat at bottom of steep slope,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+777,108,41,7238,Flat at bottom of steep slope,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+778,128,44,7238,Cove: SW warm,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,1
+779,12,24,7481,Sideslope SW warm,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+780,79,3,7238,Steep slope: NE cool,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+781,3,5,7238,Cliff: NE cool,Laurentian-Acadian Northern Oak Forest,Hardwood,Red Pine-White Pine Forest and Woodland,0
+782,4,5,7239,Cliff: NE cool,Laurentian-Acadian Northern Pine-(Oak) Forest,Conifer-Hardwood,Red Pine-White Pine Forest and Woodland,0
+783,116,39,9182,Pluvial flat,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+784,143,50,9182,Water,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+785,5,13,7241,Slope crest,Laurentian-Acadian Pine-Hemlock-Hardwood Forest,Conifer-Hardwood,Pine-Hemlock-Hardwood Forest,0
+786,21,44,7973,Cove: SW warm,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+787,4,50,7290,Water,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+788,963,13,7362,Slope crest,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+789,14,50,9064,Water,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+790,32,44,7286,Cove: SW warm,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+791,16,11,7286,Flat summit/ridge,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+792,47,41,9180,Flat at bottom of steep slope,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+793,654,41,7517,Flat at bottom of steep slope,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+794,94,4,7929,Steep slope: SW warm,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+795,207,44,9312,Cove: SW warm,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+796,35,13,7394,Slope crest,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+797,19,4,7394,Steep slope: SW warm,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+798,11,41,7973,Flat at bottom of steep slope,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+799,376,44,7395,Cove: SW warm,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+800,16,23,9178,Sideslope NE cool,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+801,271,41,7421,Flat at bottom of steep slope,Central Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+802,172,43,7395,Cove: NE cool,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+803,2,44,7394,Cove: SW warm,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+804,53,43,7927,Cove: NE cool,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+805,97,4,7295,Steep slope: SW warm,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+806,3,13,7926,Slope crest,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+807,2,11,7394,Flat summit/ridge,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,1
+808,25,24,7290,Sideslope SW warm,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,1
+809,5,39,7971,Pluvial flat,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+810,9,21,7971,Upper flat,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+811,933,24,7970,Sideslope SW warm,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+812,3,39,9118,Pluvial flat,Laurentian-Acadian Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+813,8,31,9118,Wet Flat,Laurentian-Acadian Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+814,2,39,9089,Pluvial flat,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+815,1,21,9089,Upper flat,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+816,46,31,7976,Wet Flat,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+817,11,31,9114,Wet Flat,Laurentian-Acadian Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+818,1,21,9620,Upper flat,Laurentian-Acadian Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+819,4,31,9089,Wet Flat,Laurentian-Acadian Sub-boreal Mesic Balsam Fir-Spruce Forest,Conifer,Spruce-Fir-Hardwood Forest,0
+820,1,30,9118,Dry flat,Laurentian-Acadian Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+821,4,32,9677,Valley/toe slope,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+822,98,50,7243,Water,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+823,76,50,7242,Water,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+824,5,50,7240,Water,Laurentian-Acadian Hardwood Forest,Hardwood,Pine-Hemlock-Hardwood Forest,0
+825,2,50,9114,Water,Laurentian-Acadian Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+826,2,50,9057,Water,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,Inland Marshes and Prairies,0
+827,5,39,9620,Pluvial flat,Laurentian-Acadian Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+828,1,30,9114,Dry flat,Laurentian-Acadian Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+829,1,31,9057,Wet Flat,Boreal-Laurentian-Acadian Acidic Basin Fen,Riparian,Inland Marshes and Prairies,0
+830,1,22,9677,Gentle slope,North-Central Interior and Appalachian Acidic Peatland Shrubland,Riparian,Atlantic Swamp Forests,0
+831,2,43,7242,Cove: NE cool,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,0
+832,7,13,7906,Slope crest,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+833,105,13,7242,Slope crest,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+834,138,13,7243,Slope crest,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+835,5,23,7481,Sideslope NE cool,Laurentian-Acadian Alkaline Conifer-Hardwood Swamp,Riparian,Atlantic Swamp Forests,0
+836,8,3,7926,Steep slope: NE cool,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+837,13,3,7927,Steep slope: NE cool,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+838,12,22,9120,Gentle slope,Laurentian-Acadian Wet Meadow,Riparian,Wet Meadow,0
+839,12,50,7970,Water,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+840,1,23,9117,Sideslope NE cool,Laurentian-Acadian Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+841,142,21,9682,Upper flat,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+842,195,30,9682,Dry flat,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+843,55,11,7243,Flat summit/ridge,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+844,50,30,9182,Dry flat,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+845,9,22,7972,Gentle slope,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+846,26,13,7407,Slope crest,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+847,50,13,9112,Slope crest,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+848,41,11,7242,Flat summit/ridge,Laurentian Oak Barrens,Hardwood,Jack Pine Forest,1
+849,1,21,9617,Upper flat,Laurentian-Acadian Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+850,9,11,7407,Flat summit/ridge,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+851,4,32,7972,Valley/toe slope,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+852,19,11,9112,Flat summit/ridge,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+853,3,3,7302,Steep slope: NE cool,Laurentian-Acadian Northern Hardwoods Forest,Hardwood,Yellow Birch-Sugar Maple Forest,0
+854,63,32,9682,Valley/toe slope,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+855,136,3,7362,Steep slope: NE cool,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+856,17,13,7970,Slope crest,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+857,2,43,9112,Cove: NE cool,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+858,250,22,7420,Gentle slope,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+859,240,31,7420,Wet Flat,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+860,35,50,7420,Water,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+861,286,32,7420,Valley/toe slope,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+862,241,30,7420,Dry flat,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+863,99,39,7420,Pluvial flat,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+864,85,23,7420,Sideslope NE cool,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+865,208,21,7420,Upper flat,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+866,82,24,7420,Sideslope SW warm,Northern Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+867,4,30,7971,Dry flat,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+868,6,32,7971,Valley/toe slope,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+869,20,41,9318,Flat at bottom of steep slope,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+870,4,22,7971,Gentle slope,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+871,21,24,7976,Sideslope SW warm,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+872,9,21,7517,Upper flat,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+873,5,43,7973,Cove: NE cool,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+874,3,41,7286,Flat at bottom of steep slope,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+875,115,11,7978,Flat summit/ridge,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+876,3,3,7978,Steep slope: NE cool,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+877,4,3,7973,Steep slope: NE cool,Eastern Cool Temperate Row Crop - Close Grown Crop,Agricultural,Agricultural-Row Crop-Close Grown Crop,0
+878,81,44,7295,Cove: SW warm,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+879,60,43,7295,Cove: NE cool,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+880,6,13,7292,Slope crest,Open Water,Open Water,Open Water,0
+881,10,43,7909,Cove: NE cool,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+882,29,44,7909,Cove: SW warm,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+883,28,23,7976,Sideslope NE cool,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+884,24,41,7906,Flat at bottom of steep slope,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+885,36,3,7297,Steep slope: NE cool,Developed-Medium Intensity,Developed-Medium Intensity,Developed-Medium Intensity,0
+886,12,4,7298,Steep slope: SW warm,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+887,68,23,7394,Sideslope NE cool,North-Central Interior Oak Savanna,Hardwood,Bur Oak Woodland and Savanna,0
+888,166,39,7517,Pluvial flat,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+889,10,3,7395,Steep slope: NE cool,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,0
+890,2,50,9065,Water,Central Interior Calcareous Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+891,2,31,9065,Wet Flat,Central Interior Calcareous Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+892,62,3,7295,Steep slope: NE cool,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+893,18,41,7298,Flat at bottom of steep slope,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+894,1,13,7976,Slope crest,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+895,44,44,9180,Cove: SW warm,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+896,8,43,7928,Cove: NE cool,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+897,13,44,7928,Cove: SW warm,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+898,15,41,7928,Flat at bottom of steep slope,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+899,27,4,9179,Steep slope: SW warm,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+900,15,4,7928,Steep slope: SW warm,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+901,58,4,7395,Steep slope: SW warm,North-Central Oak Barrens Woodland,Hardwood,Black Oak Woodland and Savanna,1
+902,8,43,9178,Cove: NE cool,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+903,1,4,9178,Steep slope: SW warm,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+904,3,5,7295,Cliff: NE cool,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,Quarries-Strip Mines-Gravel Pits-Well and Wind Pads,0
+905,10,32,7286,Valley/toe slope,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+906,35,44,7978,Cove: SW warm,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+907,2,13,9178,Slope crest,North-Central Interior and Appalachian Rich Swamp,Riparian,Atlantic Swamp Forests,0
+908,8,23,7972,Sideslope NE cool,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+909,1,50,7972,Water,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+910,6,44,7970,Cove: SW warm,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+911,7,41,7970,Flat at bottom of steep slope,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+912,11,11,7970,Flat summit/ridge,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+913,28,41,7978,Flat at bottom of steep slope,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+914,8,43,7978,Cove: NE cool,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+915,3,41,7243,Flat at bottom of steep slope,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,0
+916,2,44,7243,Cove: SW warm,Laurentian Pine-Oak Barrens,Conifer-Hardwood,Jack Pine Forest,1
+917,2,41,7407,Flat at bottom of steep slope,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+918,2,11,7906,Flat summit/ridge,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+919,2,44,9112,Cove: SW warm,Laurentian Jack Pine-Red Pine Forest,Conifer,Jack Pine Forest,0
+920,1,44,7407,Cove: SW warm,Laurentian Pine Barrens,Conifer,Jack Pine Forest,0
+921,16,39,9064,Pluvial flat,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+922,2,50,7979,Water,Eastern Cool Temperate Aquaculture,Agricultural,Agricultural-Aquaculture,0
+923,1,31,7979,Wet Flat,Eastern Cool Temperate Aquaculture,Agricultural,Agricultural-Aquaculture,0
+924,7,39,7972,Pluvial flat,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+925,4,22,9682,Gentle slope,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+926,1,30,7979,Dry flat,Eastern Cool Temperate Aquaculture,Agricultural,Agricultural-Aquaculture,0
+927,28,22,7286,Gentle slope,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+928,3,43,7970,Cove: NE cool,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+929,1,3,7970,Steep slope: NE cool,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+930,27,43,7906,Cove: NE cool,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+931,1,5,7908,Cliff: NE cool,Eastern Cool Temperate Urban Herbaceous,Developed,Developed-Upland Herbaceous,0
+932,28,30,7517,Dry flat,Paleozoic Plateau Bluff and Talus Woodland,Hardwood,Black Oak Woodland and Savanna,0
+933,4,41,7926,Flat at bottom of steep slope,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+934,9,3,7909,Steep slope: NE cool,Eastern Cool Temperate Urban Shrubland,Developed,Developed-Upland Shrubland,0
+935,3,4,7970,Steep slope: SW warm,Eastern Cool Temperate Orchard,Agricultural,Agricultural-Orchard,0
+936,24,31,7972,Wet Flat,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+937,6,21,7972,Upper flat,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+938,4,5,7362,Cliff: NE cool,Laurentian-Acadian Northern Pine Forest,Conifer,Red Pine-White Pine Forest and Woodland,0
+939,20,3,7929,Steep slope: NE cool,Eastern Cool Temperate Developed Herbaceous,Developed,Developed-Upland Herbaceous,0
+940,4,4,7978,Steep slope: SW warm,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+941,2,5,7927,Cliff: NE cool,Eastern Cool Temperate Developed Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+942,1,30,7972,Dry flat,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+943,5,24,7972,Sideslope SW warm,Eastern Cool Temperate Bush fruit and berries,Agricultural,Agricultural-Bush fruit and berries,0
+944,3,24,7971,Sideslope SW warm,Eastern Cool Temperate Vineyard,Agricultural,Agricultural-Vineyard,0
+945,30,41,9177,Flat at bottom of steep slope,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+946,15,24,9183,Sideslope SW warm,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+947,34,43,7298,Cove: NE cool,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+948,8,44,9177,Cove: SW warm,North-Central Interior and Appalachian Acidic Peatland Woodland,Riparian,Atlantic Swamp Forests,0
+949,3,5,7975,Cliff: NE cool,Eastern Cool Temperate Close Grown Crop,Agricultural,Agricultural-Close Grown Crop,0
+950,1,4,9679,Steep slope: SW warm,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+951,11,44,9318,Cove: SW warm,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+952,31,23,9180,Sideslope NE cool,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+953,3,39,7286,Pluvial flat,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+954,5,24,9682,Sideslope SW warm,North-Central Interior Graminoid Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+955,28,21,9182,Upper flat,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+956,3,44,7926,Cove: SW warm,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+957,11,3,7292,Steep slope: NE cool,Open Water,Open Water,Open Water,0
+958,15,23,9318,Sideslope NE cool,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+959,4,23,9679,Sideslope NE cool,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+960,4,41,9679,Flat at bottom of steep slope,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+961,2,41,7290,Flat at bottom of steep slope,North-Central Oak Barrens Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+962,9,41,7412,Flat at bottom of steep slope,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+963,1,30,9064,Dry flat,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+964,10,21,9064,Upper flat,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+965,4,21,9065,Upper flat,Central Interior Calcareous Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+966,1,39,9101,Pluvial flat,Great Lakes Dune,Sparsely Vegetated,Sparse Vegetation,0
+967,1,32,9064,Valley/toe slope,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+968,1,5,7907,Cliff: NE cool,Eastern Cool Temperate Urban Mixed Forest,Developed,Developed-Upland Mixed Forest,0
+969,19,3,7298,Steep slope: NE cool,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+970,4,3,7928,Steep slope: NE cool,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+971,6,44,9679,Cove: SW warm,North-Central Interior Floodplain Shrubland,Riparian,Eastern Floodplain Forests,0
+972,1,5,7928,Cliff: NE cool,Eastern Cool Temperate Developed Shrubland,Developed,Developed-Upland Shrubland,0
+973,2,44,9183,Cove: SW warm,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+974,1,5,7412,Cliff: NE cool,North-Central Interior Sand and Gravel Tallgrass Prairie,Grassland,Tallgrass Prairie,0
+975,1,4,9314,Steep slope: SW warm,Northern & Central Native Ruderal Flooded & Swamp Forest,Riparian,Ruderal Forest,0
+976,1,5,7978,Cliff: NE cool,Eastern Cool Temperate Wheat,Agricultural,Agricultural-Wheat,0
+977,1,43,7926,Cove: NE cool,Eastern Cool Temperate Developed Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+978,1,23,9183,Sideslope NE cool,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+979,2,22,9182,Gentle slope,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+980,4,32,9182,Valley/toe slope,North-Central Interior Shrub Alkaline Fen,Riparian,Inland Marshes and Prairies,0
+981,21,24,9181,Sideslope SW warm,North-Central Interior Quartzite Glade,Conifer-Hardwood,Glades and Barrens,0
+982,2,22,9181,Gentle slope,North-Central Interior Quartzite Glade,Conifer-Hardwood,Glades and Barrens,0
+983,1,3,7906,Steep slope: NE cool,Eastern Cool Temperate Urban Evergreen Forest,Developed,Developed-Upland Evergreen Forest,0
+984,1,5,9312,Cliff: NE cool,Northeastern North American Temperate Forest Plantation,Conifer,Managed Tree Plantation,0
+985,1,43,9183,Cove: NE cool,North-Central Interior Shrub Swamp,Riparian,Inland Marshes and Prairies,0
+986,3,21,7286,Upper flat,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+987,2,43,9180,Cove: NE cool,North-Central Interior Freshwater Marsh,Riparian,Inland Marshes and Prairies,0
+988,1,43,9318,Cove: NE cool,Northern & Central Ruderal Wet Meadow & Marsh,Riparian,Introduced Herbaceous Wetland Vegetation,0
+989,1,30,7286,Dry flat,Paleozoic Plateau Bluff and Talus Herbaceous,Grassland,Black Oak Woodland and Savanna,0
+990,3,23,9064,Sideslope NE cool,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+991,3,22,9064,Gentle slope,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+992,28,41,7488,Flat at bottom of steep slope,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+993,217,21,7518,Upper flat,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+994,88,39,7518,Pluvial flat,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+995,331,31,7518,Wet Flat,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+996,95,30,7518,Dry flat,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+997,32,50,7518,Water,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+998,23,22,7518,Gentle slope,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+999,36,32,7518,Valley/toe slope,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+1000,21,5,7298,Cliff: NE cool,Developed-High Intensity,Developed-High Intensity,Developed-High Intensity,0
+1001,6,43,9683,Cove: NE cool,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+1002,1,5,9179,Cliff: NE cool,North-Central Interior Floodplain Forest,Riparian,Eastern Floodplain Forests,0
+1003,1,5,9683,Cliff: NE cool,North-Central Interior Wet Meadow,Riparian,Inland Marshes and Prairies,0
+1004,1,13,7488,Slope crest,Eastern Great Plains Wet Meadow-Prairie-Marsh,Riparian,Depressional Wetland,0
+1005,3,31,9064,Wet Flat,Central Interior Acidic Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+1006,4,24,7518,Sideslope SW warm,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0
+1007,6,50,7976,Water,Eastern Cool Temperate Fallow/Idle Cropland,Agricultural,Agricultural-Fallow/Idle Cropland,0
+1008,14,32,7305,Valley/toe slope,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,0
+1009,17,31,7305,Wet Flat,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,0
+1010,1,39,9065,Pluvial flat,Central Interior Calcareous Cliff and Talus,Sparsely Vegetated,Sparse Vegetation,0
+1011,5,22,7305,Gentle slope,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,1
+1012,3,21,7305,Upper flat,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,1
+1013,10,24,7305,Sideslope SW warm,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,1
+1014,6,39,7305,Pluvial flat,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,0
+1015,7,50,7305,Water,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,0
+1016,5,30,7305,Dry flat,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,1
+1017,1,23,7305,Sideslope NE cool,Southern Interior Low Plateau Dry-Mesic Oak Forest,Hardwood,Chestnut Oak Forest and Woodland,0
+1018,1,23,7518,Sideslope NE cool,North-Central Interior Wet Flatwoods,Riparian,Hardwood Flatwoods,0

@@ -1,0 +1,167 @@
+---
+title: "Oaks and Landforms"
+---
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(leaflet)
+library(leaflet.extras2)
+library(RColorBrewer)
+library(sf)
+library(tidyverse)
+library(scales)
+
+
+
+
+watersheds <- st_read("data/hus_with_calcs.shp")
+driftless_border <- st_read("data/driftless_huc12s_dissolved.shp")
+
+
+
+```
+
+
+
+## Raster map of suitable landforms
+
+The map below depicts areas where suitable landforms coincide with areas mapped as having oak-containing ecosystems (see methods below for lists of oak-containing ecosystems and selected landforms).  The landforms data comes from the [Center for Resilient Science](https://crcs.tnc.org/).  The basic idea is that the warmer and drier landforms might give oaks a competitive advantage over more mesophytic tree species. 
+
+![](images/oaks_lforms.jpg){width="100%"} <br>
+
+When looking at the data across the region, patterns can be hard to detect.  The zoomed in map below of Juneau county, WI illustrates more heterogeneity.  
+
+![](images/oaks_lforms ne.jpg){width="100%"} <br>
+
+
+## Percentage of oak-containing ecosystems on suitable landforms by HUC 12 watershed
+
+The map below depicts the percentage of each watershed that was mapped as having oak-containing EVTs as of 2023 that occur on suitable landforms.  
+
+
+
+```{r}
+#| label: oak evt leaflet
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.height: 10
+
+
+# Create color palette
+colors <- c("#FFFFFF", RColorBrewer::brewer.pal(n = 5, name = "YlGn"))
+bins <- seq(min(watersheds$PERCENT_YE, na.rm = TRUE),
+            max(watersheds$PERCENT_YE, na.rm = TRUE),
+            length.out = length(colors))
+pal <- colorBin(palette = colors, domain = watersheds$PERCENT_YE, bins = bins)
+
+# Transform to WGS84
+watersheds <- st_transform(watersheds, crs = 4326)
+driftless_border <- st_transform(driftless_border, crs = 4326)
+
+# Create map
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+
+  # Driftless border
+  addPolygons(data = driftless_border,
+              color = "#363636",
+              weight = 4,
+              fill = FALSE) %>%
+
+  # Watershed polygons with popup and transparency control
+  addPolygons(data = watersheds,
+              fillColor = ~pal(PERCENT_YE),
+              weight = 1,
+              color = "white",
+              fillOpacity = 0.6,
+              group = "Watersheds",
+              highlightOptions = highlightOptions(
+                weight = 2,
+                color = "#666",
+                fillOpacity = 0.7,
+                bringToFront = TRUE
+              ),
+              popup = ~paste0("<strong>Name:</strong> ", name, "<br>",
+                              "<strong>Percent Oak Containing Ecosystems on Suitable Landforms:</strong> ", round(PERCENT_YE), "%")) %>%
+  
+  setView(lng = -90.8887413, lat = 43.5569174, zoom = 7) %>%
+
+  # Legend
+  addLegend(pal = pal,
+            values = watersheds$PERCENT_YE,
+            opacity = 0.7,
+            title = "Percent Oak Containing Ecosystems on Suitable Landforms",
+            position = "bottomright",
+            labFormat = labelFormat(suffix = "%", transform = function(x) round(x))) 
+
+
+```
+
+
+<br>
+
+## Brief methods
+
+
+### General data processing
+
+For the maps we:
+
+1. Use LANDFIRE's Existing Vegetation Types data to map oak dominated ecosystems.  This data was clipped to the dissolved HUC 12 watersheds boundary shapefile. See R code below for lists of ecosystems and landforms. 
+2. Combined these oak areas with the [Landforms](https://tnc.maps.arcgis.com/home/item.html?id=38099a3e85674e75a56012cf6f48291a) dataset developed by The Nature Conservancy's [Center for Resilient Conservation Science](https://crcs.tnc.org/).  This dataset 'subdivides landscapes into local topographic units with unique moisture and temperature profiles' (from the dataset's webpage linked above).
+3. Exported the attribute table as "evt_landforms_combine.csv". Ran the code below to append a column that essentially says "yes or no, oak-containing ecosystems occuring on suitable landforms".
+4.  This new column was joined back to the combined evt_landform_combine raster.
+
+
+The top map on this page was made with the raw raster data. 
+
+For the HUC 12 map I used the Zonal Statistics as Table tool to get the number of pixels labeled as "1" (i.e., oak containing ecosystem occuring on suitable landforms) per watershed , statistics type = SUM. I then multiplied the SUM by 0.2224 to get acres. 
+
+
+### Code for identifying oak-containing ecosystems and suitable landforms 
+
+The code below was run in R to add a new column named "in_y_n" to the evt_landforms_combine.csv data for joining to combined evt_landforms raster. 
+
+```{r}
+#| echo: true
+#| eval: false
+
+
+target_evt_names <- c(
+  "North-Central Interior Dry-Mesic Oak Forest and Woodland",
+  "North-Central Interior Dry Oak Forest and Woodland",
+  "Laurentian-Acadian Northern Pine-(Oak) Forest",
+  "Laurentian-Acadian Northern Oak Forest",
+  "North-Central Oak Barrens Woodland",
+  "Laurentian Pine-Oak Barrens",
+  "Laurentian Oak Barrens",
+  "North-Central Oak Barrens Herbaceous",
+  "North-Central Interior Oak Savanna",
+  "Southern Interior Low Plateau Dry-Mesic Oak Forest",
+  "Northern & Central Native Ruderal Forest",
+  "Northern & Central Ruderal Meadow",
+  "Northern & Central Ruderal Shrubland"
+)
+
+# Updated list of acceptable Landforms
+target_landforms <- c(
+  "Steep slope: SW warm",
+  "Cliff: SW warm",
+  "Flat summit/ridge",
+  "Slope crest",
+  "Upper flat",
+  "Gentle slope",
+  "Sideslope SW warm",
+  "Lower Slope SW warm",
+  "Dry flat",
+  "Cove: SW warm"
+)
+
+# Add the new column based on both conditions
+evt_landforms <- evt_landforms %>%
+  mutate(in_y_n = if_else(EVT_NAME %in% target_evt_names & Landforms %in% target_landforms, 1, 0))
+
+write_csv(evt_landforms, file = "outputs/evt_landforms_to_join.csv")
+```
+

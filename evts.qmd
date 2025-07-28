@@ -1,0 +1,224 @@
+---
+title: ""
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(leaflet)
+library(leaflet.extras2)
+library(RColorBrewer)
+library(sf)
+library(tidyverse)
+library(scales)
+
+
+
+
+watersheds <- st_read("data/hus_with_calcs.shp")
+driftless_border <- st_read("data/driftless_huc12s_dissolved.shp")
+evt_data <- read_csv("data/evt_aoi_attributes.csv")
+
+# Read the data from the CSV file without column names
+evt_qgis_list <- read_csv("data/evt_qgis.clr", col_names = FALSE)
+
+
+```
+
+## Most Prevalent Existing Vegetation Types
+
+Based on LANDFIRE's [Existing Vegetation Type
+data](https://landfire.gov/vegetation.php), the following map and bar chart depicts
+the most dominant [Ecological
+Systems](https://www.natureserve.org/products/terrestrial-ecological-systems-united-states)
+as of 2023.
+
+![](images/evt.jpg){width="100%"} <br><br>
+
+*Existing Vegetation Types with minor representation removed from map and chart below for clarity. Grey areas indicate where minor types were removed.*
+
+<br><br>
+
+```{r evt chart, fig.height=10, fig.width=10, message=FALSE, warning=FALSE}
+#| echo: false
+
+
+
+# Remove numbers and extract unique ecosystems
+evt_qgis_list <- evt_qgis_list %>%
+  mutate(ecosystem = str_remove_all(X1, "^\\d+\\s+\\d+\\s+\\d+\\s+\\d+\\s+\\d+\\s+")) %>%
+  distinct(ecosystem)
+
+# Assuming evt_data is already loaded
+evtname <- evt_data %>%
+  filter(EVT_NAME %in% evt_qgis_list$ecosystem) %>%
+  group_by(EVT_NAME) %>%
+  summarize(ACRES = sum(ACRES),
+            REL_PERCENT = sum(REL_PERCENT)) %>%
+  arrange(desc(REL_PERCENT)) %>%
+  top_n(n = 10, wt = REL_PERCENT)
+
+# plot
+evtChart <-
+  ggplot(data = evtname, aes(x = EVT_NAME, y = ACRES)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Top Existing Vegetation Types",
+    caption = "Data from landfire.gov",
+    x = "",
+    y = "Percent of landscape") +
+  scale_x_discrete(limits = rev(evtname$EVT_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  coord_flip() +
+  theme_bw(base_size = 14) +
+  scale_y_continuous(labels = comma)
+
+
+
+evtChart
+```
+
+## Percentage of oak-containing ecosystems by HUC 12 watershed
+
+The map below depicts the percentage of each watershed that was mapped as having oak-containing EVTs as of 2023 (see methods below for list of included Ecological Systems).  These EVTs have a mix of tree species.  For example, the [North-Central Interior Dry-Mesic Oak Forest and Woodland](https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.722663/North-Central_Interior_Dry-Mesic_Oak_Forest_and_Woodland), while dominated by oak species historically may be filling in with other species such as red maple, sugar maple and tulip poplar to become more prevalent.  As such this map does not necessarily indicate where oaks are exclusively-this situation is rare on the landscape today.
+
+
+
+```{r}
+#| label: oak evt leaflet
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.height: 10
+
+
+# Create color palette
+colors <- c("#FFFFFF", RColorBrewer::brewer.pal(n = 5, name = "PuBuGn"))
+bins <- seq(min(watersheds$PERCENT_OA, na.rm = TRUE),
+            max(watersheds$PERCENT_OA, na.rm = TRUE),
+            length.out = length(colors))
+pal <- colorBin(palette = colors, domain = watersheds$PERCENT_OA, bins = bins)
+
+# Transform to WGS84
+watersheds <- st_transform(watersheds, crs = 4326)
+driftless_border <- st_transform(driftless_border, crs = 4326)
+
+# Create map
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+
+  # Driftless border
+  addPolygons(data = driftless_border,
+              color = "#363636",
+              weight = 4,
+              fill = FALSE) %>%
+
+  # Watershed polygons with popup and transparency control
+  addPolygons(data = watersheds,
+              fillColor = ~pal(PERCENT_OA),
+              weight = 1,
+              color = "white",
+              fillOpacity = 0.6,
+              group = "Watersheds",
+              highlightOptions = highlightOptions(
+                weight = 2,
+                color = "#666",
+                fillOpacity = 0.7,
+                bringToFront = TRUE
+              ),
+              popup = ~paste0("<strong>Name:</strong> ", name, "<br>",
+                              "<strong>Percent Oak Containing Ecosystems:</strong> ", round(PERCENT_OA), "%")) %>%
+  
+  setView(lng = -90.8887413, lat = 43.5569174, zoom = 7) %>%
+
+  # Legend
+  addLegend(pal = pal,
+            values = watersheds$PERCENT_OA,
+            opacity = 0.7,
+            title = "Percent Oaks",
+            position = "bottomright",
+            labFormat = labelFormat(suffix = "%", transform = function(x) round(x))) 
+
+
+```
+
+## Brief methods
+
+Two different types of methods were used for the maps and chart.  The first map and chart were made with R and QGIS early in 2025, then in July 2025 ArcGIS Pro was used to summarize data by HUC 12 watersheds.  
+
+### Existing Vegetation Type Map and Chart
+
+All GIS operations completed in R and QGIS, including:
+
+1.  Imported all LANDFIRE data into R using the
+    [rlandfire](https://github.com/bcknr/rlandfire) package with the
+    following parameters:
+
+    *Cell size 30m sq
+    *CRS = 5070
+    *All datasets version '240' for 2024. See [LANDFIRE's 2024 data
+        update page](https://landfire.gov/data/lf2024) for more
+        information.
+
+2.  LANDFIRE datasets cropped and masked, attribute tables, color ramps
+    and initial charts created in R using the
+    [terra](https://rspatial.github.io/terra/) and
+    [tidyverse](https://www.tidyverse.org/) packages primarily.
+
+3.  Driftless area boundary supplied by John Wagner, Conservation
+    Planner and Data Manager at The Nature Conservancy.
+
+4.  Maps were made in QGIS with the following tenants:
+
+    *Existing Vegetation Type map depicts the top most prevalent EVTs
+        for clarity. LANDFIRE maps 79 types; we mapped 7 types and
+        charted 9. For the map two "Row Crop" and two "Ruderal" types
+        were lumped.
+        
+        
+All code available upon request (along with a demo) by emailing [Randy Swaty](mailto:rswaty@tnc.org). 
+
+        
+### Percentage oak per HUC 12 watershed        
+        
+For the map below, I used ArcGIS Pro with a CONUS-wide .tiff file of LANDFIRE's EVT data, and the HUC12 data.  Basic process was:
+
+1. Create HUC12 dataset
+    * downloaded and loaded in HUC12 polygons for the US from https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/National/GPKG/
+    * loaded in the Driftless Region polygon (provided by John Wagner)
+    * used the Select by location tool, Intersect relationship, with national HUCs as input and Driftless region as the Selecting Features.
+
+The resulting dataset was used as is for zonal stats, and was also dissolved to create a general boundary file. 
+
+2. Clip the EVT raster to the dissolved HUC12-based boundary file
+
+3. Create a binary raster from a clipped EVT raster for 2023 with the following Ecological Systems given a 1, all others a 0:
+
+* North-Central Interior Dry-Mesic Oak Forest and Woodland
+* North-Central Interior Dry Oak Forest and Woodland
+* Laurentian-Acadian Northern Pine-(Oak) Forest
+* Laurentian-Acadian Northern Oak Forest
+* North-Central Oak Barrens Woodland
+* Laurentian Pine-Oak Barrens
+* Laurentian Oak Barrens
+* North-Central Oak Barrens Herbaceous
+* North-Central Interior Oak Savanna
+* Southern Interior Low Plateau Dry-Mesic Oak Forest
+
+More specifically the EVT values were used in the following code that
+was used in the raster calculator: 
+
+Con(("LC23_EVT_240_Clip" == 7238) \|\
+("LC23_EVT_240_Clip" == 7239) \|\
+("LC23_EVT_240_Clip" == 7242) \|\
+("LC23_EVT_240_Clip" == 7243) \|\
+("LC23_EVT_240_Clip" == 7290) \|\
+("LC23_EVT_240_Clip" == 7305) \|\
+("LC23_EVT_240_Clip" == 7310) \|\
+("LC23_EVT_240_Clip" == 7311) \|\
+("LC23_EVT_240_Clip" == 7394) \|\
+("LC23_EVT_240_Clip" == 7395), 1, 0)
+
+4. To get the number of pixels labeled as "1" (i.e., oak containing) per watershed I used the Zonal Statistics as Table tool, statistics type = SUM. I then multiplied the SUM by 0.2224 to get acres of oak containing ecosystems per watershed. The following map represents the percent of each watershed mapped as having these oak containing Ecological Systems.

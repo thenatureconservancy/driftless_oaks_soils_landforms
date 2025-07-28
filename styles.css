@@ -1,1 +1,31 @@
-/* css styles */
+
+
+
+
+/* Increase Text Size */
+.navbar-nav a {
+  font-size: 18px; /* Adjust the size as needed */
+}
+
+/* Add Background Boxes */
+.navbar-nav a {
+  background-color: #f0f0f0; /* Choose a color that fits your theme */
+  padding: 10px 15px;
+  border-radius: 5px; /* Optional: adds rounded corners */
+  margin: 5px;
+  text-decoration: none; /* Removes underline */
+  color: #000000; /* Ensures text is visible */
+}
+
+/* Add Hover Effects for better visibility */
+.navbar-nav a:hover {
+  background-color: #e0e0e0; /* Slightly different color on hover */
+  font-size: 24px; /* Increase text size on hover */
+}
+
+/* Style for the currently selected page */
+.navbar-nav a.active {
+  font-weight: bold;
+  color: #000000 !important; /* Black color for the active link */
+  background-color: #e0e0e0; /* Ensure background is consistent */
+}

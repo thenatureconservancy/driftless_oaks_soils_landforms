@@ -1,0 +1,121 @@
+---
+title: "Integrated Moisture Index"
+---
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(leaflet)
+library(leaflet.extras2)
+library(RColorBrewer)
+library(sf)
+library(tidyverse)
+library(scales)
+
+
+
+
+watersheds <- st_read("data/hus_with_calcs.shp")
+driftless_border <- st_read("data/driftless_huc12s_dissolved.shp")
+```
+
+## Integrated Moisture Index
+
+In a mesophication context, oaks might have a competitive advantage over competitors such as red maple when long-term soil moisture is limited (Loftis and McGee 1993). With this in mind, Iverson et al. (1996; also see Iverson et al. 1997) developed the Integrated Moisture Index (IMI), a GIS tool that uses readily available input datasets (e.g., a Digital Elevation Model, DEM) to generate a single number that ranges from 0-100 that captures where soil moisture should be higher:
+
+* where solar radiation is minimized
+* where flow accumulation occurs (lower positions on slopes)
+* and in soils with higher water storage capacity
+
+
+## Raster map of the Integrated Moisture Index
+
+Using updated methods kindly shared by Matt Peters (in review, 2025), I calculated the IMI and map the raw data below.  For both the raster and the HUC 12 maps, lower values are hypothesized to be better for oaks. 
+
+<br>
+![](images/IMI.jpg){width="100%"} <br>
+
+
+
+## Mean Integrated Moisture Index per HUC 12
+
+The map below depicts mean IMI values per HUC 12 watershed as calculated using Zonal Statistics in ArcGIS Pro.
+
+<br>
+
+
+```{r}
+#| label: oak evt leaflet
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.height: 10
+
+
+# Create color palette
+colors <- c("#FFFFFF", RColorBrewer::brewer.pal(n = 5, name = "Blues"))
+bins <- seq(min(watersheds$MEAN_IMI, na.rm = TRUE),
+            max(watersheds$MEAN_IMI, na.rm = TRUE),
+            length.out = length(colors))
+pal <- colorBin(palette = colors, domain = watersheds$MEAN_IMI, bins = bins)
+
+# Transform to WGS84
+watersheds <- st_transform(watersheds, crs = 4326)
+driftless_border <- st_transform(driftless_border, crs = 4326)
+
+# Create map
+leaflet() %>%
+  addProviderTiles("CartoDB.Positron") %>%
+
+  # Driftless border
+  addPolygons(data = driftless_border,
+              color = "#363636",
+              weight = 4,
+              fill = FALSE) %>%
+
+  # Watershed polygons with popup and transparency control
+  addPolygons(data = watersheds,
+              fillColor = ~pal(MEAN_IMI),
+              weight = 1,
+              color = "white",
+              fillOpacity = 0.6,
+              group = "Watersheds",
+              highlightOptions = highlightOptions(
+                weight = 2,
+                color = "#666",
+                fillOpacity = 0.7,
+                bringToFront = TRUE
+              ),
+              popup = ~paste0("<strong>Name:</strong> ", name, "<br>",
+                              "<strong>Mean Integrated Moisture Index:</strong> ", round(MEAN_IMI), "%")) %>%
+  
+  setView(lng = -90.8887413, lat = 43.5569174, zoom = 7) %>%
+
+  # Legend
+  addLegend(pal = pal,
+            values = watersheds$MEAN_IMI,
+            opacity = 0.7,
+            title = "Mean Integrated Moisture Index",
+            position = "bottomright",
+            labFormat = labelFormat(transform = function(x) round(x))) 
+
+
+```
+
+
+
+
+
+## Brief Methods
+
+Currently the methods are contained in a manuscript that is in review.  Please contact [Randy Swaty](mailto:rswaty@tnc.org){target="blank"} for more information.  Once the paper is out more information will be shared below.
+
+
+
+## References
+
+Iverson, L.R., Scott, C.T., Dale, M.E. and Prasad, A., 1996. Development of an integrated moisture index for predicting species composition. In In: Kohl, Michael; Gertner, George Z., eds. Caring for the forest: research in a changing world, statistics, mathematics and computers, proceedings of the meeting of IUFRO S4. 11-00; 1995 August 6-12; Tampere, Finland. Birmensdorf, Switzerland: Swiss Federal Institute for Forest, Snow and Landscape Research: 101-116
+
+Iverson, L.R., Dale, M.E., Scott, C.T. and Prasad, A., 1997. A GIS-derived integrated moisture index to predict forest composition and productivity of Ohio forests (USA). Landscape Ecology, 12(5), pp.331-348.
+
+Loftis, D.L. and McGee, C.E., 1993. Oak regeneration: serious problems, practical recommendations: symposium proceedings, Knoxville, Tennessee, September 8-10, 1992 (Vol. 84). Southeastern Forest Experimental Station.
+

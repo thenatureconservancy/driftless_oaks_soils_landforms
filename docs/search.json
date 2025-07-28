@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "landforms.html",
+    "href": "landforms.html",
+    "title": "Oaks and Landforms",
+    "section": "",
+    "text": "The map below depicts areas where suitable landforms coincide with areas mapped as having oak-containing ecosystems (see methods below for lists of oak-containing ecosystems and selected landforms). The landforms data comes from the Center for Resilient Science. The basic idea is that the warmer and drier landforms might give oaks a competitive advantage over more mesophytic tree species.\n \nWhen looking at the data across the region, patterns can be hard to detect. The zoomed in map below of Juneau county, WI illustrates more heterogeneity."
+  },
+  {
+    "objectID": "landforms.html#raster-map-of-suitable-landforms",
+    "href": "landforms.html#raster-map-of-suitable-landforms",
+    "title": "Oaks and Landforms",
+    "section": "",
+    "text": "The map below depicts areas where suitable landforms coincide with areas mapped as having oak-containing ecosystems (see methods below for lists of oak-containing ecosystems and selected landforms). The landforms data comes from the Center for Resilient Science. The basic idea is that the warmer and drier landforms might give oaks a competitive advantage over more mesophytic tree species.\n \nWhen looking at the data across the region, patterns can be hard to detect. The zoomed in map below of Juneau county, WI illustrates more heterogeneity."
+  },
+  {
+    "objectID": "landforms.html#percentage-of-oak-containing-ecosystems-on-suitable-landforms-by-huc-12-watershed",
+    "href": "landforms.html#percentage-of-oak-containing-ecosystems-on-suitable-landforms-by-huc-12-watershed",
+    "title": "Oaks and Landforms",
+    "section": "Percentage of oak-containing ecosystems on suitable landforms by HUC 12 watershed",
+    "text": "Percentage of oak-containing ecosystems on suitable landforms by HUC 12 watershed\nThe map below depicts the percentage of each watershed that was mapped as having oak-containing EVTs as of 2023 that occur on suitable landforms."
+  },
+  {
+    "objectID": "landforms.html#brief-methods",
+    "href": "landforms.html#brief-methods",
+    "title": "Oaks and Landforms",
+    "section": "Brief methods",
+    "text": "Brief methods\n\nGeneral data processing\nFor the maps we:\n\nUse LANDFIRE’s Existing Vegetation Types data to map oak dominated ecosystems. This data was clipped to the dissolved HUC 12 watersheds boundary shapefile. See R code below for lists of ecosystems and landforms.\nCombined these oak areas with the Landforms dataset developed by The Nature Conservancy’s Center for Resilient Conservation Science. This dataset ‘subdivides landscapes into local topographic units with unique moisture and temperature profiles’ (from the dataset’s webpage linked above).\nExported the attribute table as “evt_landforms_combine.csv”. Ran the code below to append a column that essentially says “yes or no, oak-containing ecosystems occuring on suitable landforms”.\nThis new column was joined back to the combined evt_landform_combine raster.\n\nThe top map on this page was made with the raw raster data.\nFor the HUC 12 map I used the Zonal Statistics as Table tool to get the number of pixels labeled as “1” (i.e., oak containing ecosystem occuring on suitable landforms) per watershed , statistics type = SUM. I then multiplied the SUM by 0.2224 to get acres.\n\n\nCode for identifying oak-containing ecosystems and suitable landforms\nThe code below was run in R to add a new column named “in_y_n” to the evt_landforms_combine.csv data for joining to combined evt_landforms raster.\n\ntarget_evt_names &lt;- c(\n  \"North-Central Interior Dry-Mesic Oak Forest and Woodland\",\n  \"North-Central Interior Dry Oak Forest and Woodland\",\n  \"Laurentian-Acadian Northern Pine-(Oak) Forest\",\n  \"Laurentian-Acadian Northern Oak Forest\",\n  \"North-Central Oak Barrens Woodland\",\n  \"Laurentian Pine-Oak Barrens\",\n  \"Laurentian Oak Barrens\",\n  \"North-Central Oak Barrens Herbaceous\",\n  \"North-Central Interior Oak Savanna\",\n  \"Southern Interior Low Plateau Dry-Mesic Oak Forest\",\n  \"Northern & Central Native Ruderal Forest\",\n  \"Northern & Central Ruderal Meadow\",\n  \"Northern & Central Ruderal Shrubland\"\n)\n\n# Updated list of acceptable Landforms\ntarget_landforms &lt;- c(\n  \"Steep slope: SW warm\",\n  \"Cliff: SW warm\",\n  \"Flat summit/ridge\",\n  \"Slope crest\",\n  \"Upper flat\",\n  \"Gentle slope\",\n  \"Sideslope SW warm\",\n  \"Lower Slope SW warm\",\n  \"Dry flat\",\n  \"Cove: SW warm\"\n)\n\n# Add the new column based on both conditions\nevt_landforms &lt;- evt_landforms %&gt;%\n  mutate(in_y_n = if_else(EVT_NAME %in% target_evt_names & Landforms %in% target_landforms, 1, 0))\n\nwrite_csv(evt_landforms, file = \"outputs/evt_landforms_to_join.csv\")"
+  },
+  {
+    "objectID": "imi.html",
+    "href": "imi.html",
+    "title": "Integrated Moisture Index",
+    "section": "",
+    "text": "In a mesophication context, oaks might have a competitive advantage over competitors such as red maple when long-term soil moisture is limited (Loftis and McGee 1993). With this in mind, Iverson et al. (1996; also see Iverson et al. 1997) developed the Integrated Moisture Index (IMI), a GIS tool that uses readily available input datasets (e.g., a Digital Elevation Model, DEM) to generate a single number that ranges from 0-100 that captures where soil moisture should be higher:\n\nwhere solar radiation is minimized\nwhere flow accumulation occurs (lower positions on slopes)\nand in soils with higher water storage capacity"
+  },
+  {
+    "objectID": "imi.html#integrated-moisture-index",
+    "href": "imi.html#integrated-moisture-index",
+    "title": "Integrated Moisture Index",
+    "section": "",
+    "text": "In a mesophication context, oaks might have a competitive advantage over competitors such as red maple when long-term soil moisture is limited (Loftis and McGee 1993). With this in mind, Iverson et al. (1996; also see Iverson et al. 1997) developed the Integrated Moisture Index (IMI), a GIS tool that uses readily available input datasets (e.g., a Digital Elevation Model, DEM) to generate a single number that ranges from 0-100 that captures where soil moisture should be higher:\n\nwhere solar radiation is minimized\nwhere flow accumulation occurs (lower positions on slopes)\nand in soils with higher water storage capacity"
+  },
+  {
+    "objectID": "imi.html#raster-map-of-the-integrated-moisture-index",
+    "href": "imi.html#raster-map-of-the-integrated-moisture-index",
+    "title": "Integrated Moisture Index",
+    "section": "Raster map of the Integrated Moisture Index",
+    "text": "Raster map of the Integrated Moisture Index\nUsing updated methods kindly shared by Matt Peters (in review, 2025), I calculated the IMI and map the raw data below. For both the raster and the HUC 12 maps, lower values are hypothesized to be better for oaks."
+  },
+  {
+    "objectID": "imi.html#mean-integrated-moisture-index-per-huc-12",
+    "href": "imi.html#mean-integrated-moisture-index-per-huc-12",
+    "title": "Integrated Moisture Index",
+    "section": "Mean Integrated Moisture Index per HUC 12",
+    "text": "Mean Integrated Moisture Index per HUC 12\nThe map below depicts mean IMI values per HUC 12 watershed as calculated using Zonal Statistics in ArcGIS Pro."
+  },
+  {
+    "objectID": "imi.html#brief-methods",
+    "href": "imi.html#brief-methods",
+    "title": "Integrated Moisture Index",
+    "section": "Brief Methods",
+    "text": "Brief Methods\nCurrently the methods are contained in a manuscript that is in review. Please contact Randy Swaty for more information. Once the paper is out more information will be shared below."
+  },
+  {
+    "objectID": "imi.html#references",
+    "href": "imi.html#references",
+    "title": "Integrated Moisture Index",
+    "section": "References",
+    "text": "References\nIverson, L.R., Scott, C.T., Dale, M.E. and Prasad, A., 1996. Development of an integrated moisture index for predicting species composition. In In: Kohl, Michael; Gertner, George Z., eds. Caring for the forest: research in a changing world, statistics, mathematics and computers, proceedings of the meeting of IUFRO S4. 11-00; 1995 August 6-12; Tampere, Finland. Birmensdorf, Switzerland: Swiss Federal Institute for Forest, Snow and Landscape Research: 101-116\nIverson, L.R., Dale, M.E., Scott, C.T. and Prasad, A., 1997. A GIS-derived integrated moisture index to predict forest composition and productivity of Ohio forests (USA). Landscape Ecology, 12(5), pp.331-348.\nLoftis, D.L. and McGee, C.E., 1993. Oak regeneration: serious problems, practical recommendations: symposium proceedings, Knoxville, Tennessee, September 8-10, 1992 (Vol. 84). Southeastern Forest Experimental Station."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this Project",
+    "section": "",
+    "text": "LANDFIRE (Landscape Fire and Resource Management Planning Tools) is a shared program between the U.S. Department of Agriculture Forest Service Fire and Aviation branch and the U.S. Department of the Interior. LANDFIRE provides 25+ national landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations. Included in the product suite are current and historic conditions including ecosystem dynamic models that can be used for conservation, fire planning, and landscape management decisions.\nThe Nature Conservancy (TNC) is a Major Partner in the LANDFIRE Program supported by a cooperative agreement through USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE and the user community by:\n\nHelping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products.\nLocating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation.\nIdentifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios.\n\n\nTNC’s LANDFIRE Team is advancing conservation outcomes through collaborative ecosystem science by supporting LANDFIRE users as they locate, obtain and apply the diverse suite of LANDFIRE products and data.\n\nCreated by TNC Ecologist, Randy Swaty, this preliminary landscape assessment leverages LANDFIRE’s unique geospatial products to advance beneficial outcomes for the wildland fire and natural resource communities. The central data in each project are created and managed by the cooperative inter-agency/inter-organizational LANDFIRE program.\nThese charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis. All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nSubstantial code contributions for GIS data processing by Myles Walimaa."
+  },
+  {
+    "objectID": "about.html#landfire-the-nature-conservancy",
+    "href": "about.html#landfire-the-nature-conservancy",
+    "title": "About this Project",
+    "section": "",
+    "text": "LANDFIRE (Landscape Fire and Resource Management Planning Tools) is a shared program between the U.S. Department of Agriculture Forest Service Fire and Aviation branch and the U.S. Department of the Interior. LANDFIRE provides 25+ national landscape-scale geo-spatial products, 950 vegetation models, and a suite of tools that support all-lands planning, management, and operations. Included in the product suite are current and historic conditions including ecosystem dynamic models that can be used for conservation, fire planning, and landscape management decisions.\nThe Nature Conservancy (TNC) is a Major Partner in the LANDFIRE Program supported by a cooperative agreement through USDA Forest Service. TNC’s LANDFIRE Team works closely with the LANDFIRE Business Leads, program staff, and other partners to provide support to LANDFIRE and the user community by:\n\nHelping users understand the strengths, weaknesses, and appropriate uses of LANDFIRE products.\nLocating, obtaining, and using geospatial data, tools, and models for fire and natural resource management, planning, and implementation.\nIdentifying and comparing management priorities, evaluating threats to ecosystems, and exploring outcomes under alternative management scenarios.\n\n\nTNC’s LANDFIRE Team is advancing conservation outcomes through collaborative ecosystem science by supporting LANDFIRE users as they locate, obtain and apply the diverse suite of LANDFIRE products and data.\n\nCreated by TNC Ecologist, Randy Swaty, this preliminary landscape assessment leverages LANDFIRE’s unique geospatial products to advance beneficial outcomes for the wildland fire and natural resource communities. The central data in each project are created and managed by the cooperative inter-agency/inter-organizational LANDFIRE program.\nThese charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis. All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nSubstantial code contributions for GIS data processing by Myles Walimaa."
+  },
+  {
+    "objectID": "about.html#biophysical-settings-products",
+    "href": "about.html#biophysical-settings-products",
+    "title": "About this Project",
+    "section": "Biophysical Settings Products",
+    "text": "Biophysical Settings Products\nA Biophysical Setting (BpS) is a concept that represents the vegetation that may have been dominant on the landscape prior to European colonization of North America and is based on both the current biophysical environment and an approximation of the historical disturbance regime.\n\nLANDFIRE collaborated with experts around the country to create a description and model for every BpS in the US. Find BpS descriptions for your area here.\nCheck out the vegetation modeling website to learn how to integrate BpS into your work.\nRead Blankenship et al. (2021) to learn how the models and descriptions were developed."
+  },
+  {
+    "objectID": "about.html#vegetation-products",
+    "href": "about.html#vegetation-products",
+    "title": "About this Project",
+    "section": "Vegetation Products",
+    "text": "Vegetation Products\nLANDFIRE (LF) existing vegetation layers describe the following elements: Existing Vegetation Type (EVT), Existing Vegetation Canopy Cover (EVC), and Existing Vegetation Height (EVH). These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.\n\nResources\n\nExisting Vegetation Cover\nExisting Vegetation Height\nExisting Vegetation Type\n\n\n\n\n\n\nQuestions? LANDFIRE is here to help\n\n\nGet in touch with TNC Ecologist, Randy Swaty, (Landscape assessment creator and TNC Ecologist)\nAsk the LANDFIRE Helpdesk\nSearch (& subscribe to) the LANDFIRE YouTube Channel (see tutorials, Office Hours, quick demonstrations)\nSee how others are putting LANDFIRE products to work\nJoin the LANDFIRE Newsletter 2-min read\nCheck out our other LANDFIRE-Powered Assessments Hub"
+  },
+  {
+    "objectID": "evts.html",
+    "href": "evts.html",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "",
+    "text": "Based on LANDFIRE’s Existing Vegetation Type data, the following map and bar chart depicts the most dominant Ecological Systems as of 2023.\n \nExisting Vegetation Types with minor representation removed from map and chart below for clarity. Grey areas indicate where minor types were removed."
+  },
+  {
+    "objectID": "evts.html#most-prevalent-existing-vegetation-types",
+    "href": "evts.html#most-prevalent-existing-vegetation-types",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "",
+    "text": "Based on LANDFIRE’s Existing Vegetation Type data, the following map and bar chart depicts the most dominant Ecological Systems as of 2023.\n \nExisting Vegetation Types with minor representation removed from map and chart below for clarity. Grey areas indicate where minor types were removed."
+  },
+  {
+    "objectID": "evts.html#percentage-of-oak-containing-ecosystems-by-huc-12-watershed",
+    "href": "evts.html#percentage-of-oak-containing-ecosystems-by-huc-12-watershed",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "Percentage of oak-containing ecosystems by HUC 12 watershed",
+    "text": "Percentage of oak-containing ecosystems by HUC 12 watershed\nThe map below depicts the percentage of each watershed that was mapped as having oak-containing EVTs as of 2023 (see methods below for list of included Ecological Systems). These EVTs have a mix of tree species. For example, the North-Central Interior Dry-Mesic Oak Forest and Woodland, while dominated by oak species historically may be filling in with other species such as red maple, sugar maple and tulip poplar to become more prevalent. As such this map does not necessarily indicate where oaks are exclusively-this situation is rare on the landscape today."
+  },
+  {
+    "objectID": "evts.html#brief-methods",
+    "href": "evts.html#brief-methods",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "Brief methods",
+    "text": "Brief methods\nTwo different types of methods were used for the maps and chart. The first map and chart were made with R and QGIS early in 2025, then in July 2025 ArcGIS Pro was used to summarize data by HUC 12 watersheds.\n\nExisting Vegetation Type Map and Chart\nAll GIS operations completed in R and QGIS, including:\n\nImported all LANDFIRE data into R using the rlandfire package with the following parameters:\nCell size 30m sq CRS = 5070 *All datasets version ‘240’ for 2024. See LANDFIRE’s 2024 data update page for more information.\nLANDFIRE datasets cropped and masked, attribute tables, color ramps and initial charts created in R using the terra and tidyverse packages primarily.\nDriftless area boundary supplied by John Wagner, Conservation Planner and Data Manager at The Nature Conservancy.\nMaps were made in QGIS with the following tenants:\n*Existing Vegetation Type map depicts the top most prevalent EVTs for clarity. LANDFIRE maps 79 types; we mapped 7 types and charted 9. For the map two “Row Crop” and two “Ruderal” types were lumped.\n\nAll code available upon request (along with a demo) by emailing Randy Swaty.\n\n\nPercentage oak per HUC 12 watershed\nFor the map below, I used ArcGIS Pro with a CONUS-wide .tiff file of LANDFIRE’s EVT data, and the HUC12 data. Basic process was:\n\nCreate HUC12 dataset\n\ndownloaded and loaded in HUC12 polygons for the US from https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/WBD/National/GPKG/\nloaded in the Driftless Region polygon (provided by John Wagner)\nused the Select by location tool, Intersect relationship, with national HUCs as input and Driftless region as the Selecting Features.\n\n\nThe resulting dataset was used as is for zonal stats, and was also dissolved to create a general boundary file.\n\nClip the EVT raster to the dissolved HUC12-based boundary file\nCreate a binary raster from a clipped EVT raster for 2023 with the following Ecological Systems given a 1, all others a 0:\n\n\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nNorth-Central Interior Dry Oak Forest and Woodland\nLaurentian-Acadian Northern Pine-(Oak) Forest\nLaurentian-Acadian Northern Oak Forest\nNorth-Central Oak Barrens Woodland\nLaurentian Pine-Oak Barrens\nLaurentian Oak Barrens\nNorth-Central Oak Barrens Herbaceous\nNorth-Central Interior Oak Savanna\nSouthern Interior Low Plateau Dry-Mesic Oak Forest\n\nMore specifically the EVT values were used in the following code that was used in the raster calculator:\nCon((“LC23_EVT_240_Clip” == 7238) |\n(“LC23_EVT_240_Clip” == 7239) |\n(“LC23_EVT_240_Clip” == 7242) |\n(“LC23_EVT_240_Clip” == 7243) |\n(“LC23_EVT_240_Clip” == 7290) |\n(“LC23_EVT_240_Clip” == 7305) |\n(“LC23_EVT_240_Clip” == 7310) |\n(“LC23_EVT_240_Clip” == 7311) |\n(“LC23_EVT_240_Clip” == 7394) |\n(“LC23_EVT_240_Clip” == 7395), 1, 0)\n\nTo get the number of pixels labeled as “1” (i.e., oak containing) per watershed I used the Zonal Statistics as Table tool, statistics type = SUM. I then multiplied the SUM by 0.2224 to get acres of oak containing ecosystems per watershed. The following map represents the percent of each watershed mapped as having these oak containing Ecological Systems."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "",
+    "text": "This Spatial Data Assessment explores potential sites for oak ecosystem restoration, with a focus on soils, landforms and existing vegetation type and forest canopy cover."
+  },
+  {
+    "objectID": "index.html#goals-of-this-web-report",
+    "href": "index.html#goals-of-this-web-report",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "Goals of this web report",
+    "text": "Goals of this web report\nThe maps and charts here highlight general vegetation and land-use trends in the Driftless region, and explore potential areas for restoration of oak-dominated areas. Additionally we document brief methods.\n\n\n\nDriftless region hydrography.\n\n\nWeb report developed and deployed by Randy Swaty. Methods and maps made with substantial input from:\n\nAnn Calhoun\nGarrett Knowlton\nJohn Wagner\nAugust Froehlich"
+  },
+  {
+    "objectID": "index.html#quick-note-about-methods",
+    "href": "index.html#quick-note-about-methods",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "Quick note about methods",
+    "text": "Quick note about methods\nEach page will have brief notes on methods (except the IMI page as methods are in review). GIS processing completed in ArcGIS pro history and detailed parameterization of steps recorded in a shared ArcGIS pro project package. Please contact Randy Swaty for link to that file."
+  },
+  {
+    "objectID": "index.html#how-to-use-this-web-report",
+    "href": "index.html#how-to-use-this-web-report",
+    "title": "Driftless Spatial Planning Project, 2025",
+    "section": "How to use this web report",
+    "text": "How to use this web report\n\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty.\nReview is ongoing.\nTo share this web app, simply share the hyperlink.\nToggle between dark and light display of this site in the upper right corner of the page."
+  }
+]
