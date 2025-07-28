@@ -1,11 +1,13 @@
 project:
   type: website
   output-dir: docs
+  resources: ["images"]  # Ensures image folder is copied to output
   preview: 
     watch-inputs: false
 
 website:
   title: "Driftless Spatial Planning Project, 2025"
+  site-url: "https://your-username.github.io/your-repo-name/"  # Replace with your actual GitHub Pages URL
   navbar:
     left:
       - href: index.qmd
@@ -28,4 +30,3 @@ format:
     toc: true
 
 editor: source
-
