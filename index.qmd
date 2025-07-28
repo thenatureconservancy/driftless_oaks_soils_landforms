@@ -19,7 +19,7 @@ title: "Driftless Spatial Planning Project, 2025"
 
 The maps and charts here highlight general vegetation and land-use trends in the Driftless region, and explore potential areas for restoration of oak-dominated areas.  Additionally we document brief methods.  
 
-![Driftless region hydrography.](images/hydrography.jpg){style="float:right; margin-left: 25px;" fig-alt="\"Rivers and streams of the Driftless region." fig-align="right" width="450" }
+![Driftless region hydrography.](docs/images/hydrography.jpg){style="float:right; margin-left: 25px;" fig-alt="\"Rivers and streams of the Driftless region." fig-align="right" width="450" }
 
 Web report developed and deployed by Randy Swaty.  Methods and maps made with substantial input from:
 
